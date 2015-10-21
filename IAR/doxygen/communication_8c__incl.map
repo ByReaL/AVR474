@@ -1,0 +1,7 @@
+<area shape="rect" href="$common_8h.html" title="Common headerfile." alt="" coords="357,155,440,181">
+<area shape="rect" href="$smbus_8h.html" title="Headerfile for smbus.c." alt="" coords="5,80,77,107">
+<area shape="rect" href="$communication_8h.html" title="This file contains the Communication definitions." alt="" coords="152,80,272,107">
+<area shape="rect" href="$communication_2interpreter_8h.html" title="SMBus Protocol command interpreter." alt="" coords="347,80,437,107">
+<area shape="rect" href="$crc8_8h.html" title="Simple 8bit CRC." alt="" coords="461,80,517,107">
+<area shape="rect" href="$stdint_8h.html" title="stdint.h" alt="" coords="367,229,431,256">
+<area shape="rect" href="$error_8h.html" title="error.h" alt="" coords="553,229,612,256">

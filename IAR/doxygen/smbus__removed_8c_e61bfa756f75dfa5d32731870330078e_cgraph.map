@@ -1,0 +1,6 @@
+<area shape="rect" href="$battery__current__monitoring_8c.html#0959c4b3bb0cee63ad2a3bdb89a92a6d" title="Provide an estimate for the average current throughout the last minute (18&#45;bit signed)..." alt="" coords="172,5,367,32">
+<area shape="rect" href="$cc__gas__gauging_8c.html#374a10fc3c29a66f6867e608a35c3499" title="Convert mAh to accumulated." alt="" coords="199,56,340,83">
+<area shape="rect" href="$smbus__removed_8c.html#7e26bdd453b4e280347491f250b54b5b" title="FillResponseInt" alt="" coords="215,107,324,133">
+<area shape="rect" href="$gas__gauging_8c.html#cfbc7e47153ec1e54e6fc85ddde14d26" title="Returns state of charge." alt="" coords="193,157,345,184">
+<area shape="rect" href="$gas__gauging_8c.html#86386fa7dbd384f1d29de0dc72d8820c" title="Returns the remaining capacity at specified current." alt="" coords="416,157,595,184">
+<area shape="rect" href="$cc__gas__gauging_8c.html#6bd8ffcf294bdac1f08ce9b4406e834e" title="Read out raw values accumulated." alt="" coords="643,157,851,184">

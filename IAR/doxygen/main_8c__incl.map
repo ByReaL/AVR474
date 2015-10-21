@@ -1,0 +1,26 @@
+<area shape="rect" href="$common_8h.html" title="Common headerfile." alt="" coords="849,304,932,331">
+<area shape="rect" href="$ATmega32HVB__signature_8h.html" title="Signature row defines for ATmega16HVB and ATmega32HVB." alt="" coords="1603,229,1784,256">
+<area shape="rect" href="$bandgap_8h.html" title="Headerfile for bandgap.c." alt="" coords="1731,155,1811,181">
+<area shape="rect" href="$vadc_8h.html" title="Headerfile for vadc_usage.c." alt="" coords="204,80,263,107">
+<area shape="rect" href="$battery__pack__parameters_8h.html" title="Definition file for a smart battery pack." alt="" coords="144,155,323,181">
+<area shape="rect" href="$battery__protection_8h.html" title="Header file for Battery Protection peripheral module driver." alt="" coords="507,229,643,256">
+<area shape="rect" href="$battery__current__monitoring_8h.html" title="Header file for CC&#45;ADC result processing firmware module." alt="" coords="245,229,432,256">
+<area shape="rect" href="$ccadc_8h.html" title="CCADC module header file." alt="" coords="608,80,675,107">
+<area shape="rect" href="$smbus_8h.html" title="Headerfile for smbus.c." alt="" coords="1781,80,1853,107">
+<area shape="rect" href="$authentication_8h.html" title="Headerfile for authentication.c." alt="" coords="11,80,123,107">
+<area shape="rect" href="$battery__voltage__monitoring_8h.html" title="Header file for bettery voltage monitoring firmware module." alt="" coords="397,80,584,107">
+<area shape="rect" href="$fet__control_8h.html" title="Header file for FET control peripheral module driver." alt="" coords="717,229,808,256">
+<area shape="rect" href="$watchdog_8h.html" title="Header file for Watchdog Timer peripheral module driver." alt="" coords="800,155,888,181">
+<area shape="rect" href="$rc__calibration_8h.html" title="Defines and prototypes for rc_calibration.c." alt="" coords="883,229,992,256">
+<area shape="rect" href="$pwr__mgmnt_8h.html" title="Contains defines for setting of sleep modes and entering sleep, and for disabling..." alt="" coords="963,155,1061,181">
+<area shape="rect" href="$ntc__rh163h103f_8h.html" title="Headerfile for ntc_rh163h103f.c." alt="" coords="1067,229,1187,256">
+<area shape="rect" href="$rtc_8h.html" title="Headerfile for rtc.c." alt="" coords="1136,155,1184,181">
+<area shape="rect" href="$cc__gas__gauging_8h.html" title="Gas gauging header file." alt="" coords="1208,155,1333,181">
+<area shape="rect" href="$gas__gauging_8h.html" title="Gas gauging module for calculating time to empty, time to full etc." alt="" coords="1237,80,1341,107">
+<area shape="rect" href="$voltage__based__SoC_8h.html" title="Contains defines, typedefinitions and functions prototypes for voltage_based_SoC..." alt="" coords="1408,155,1555,181">
+<area shape="rect" href="$vreg__mon_8h.html" title="Headerfile for vreg_mon.c." alt="" coords="1424,229,1512,256">
+<area shape="rect" href="$timer_8h.html" title="Headerfile for timer.c." alt="" coords="1877,80,1939,107">
+<area shape="rect" href="$stdint_8h.html" title="stdint.h" alt="" coords="633,379,697,405">
+<area shape="rect" href="$error_8h.html" title="error.h" alt="" coords="903,379,961,405">
+<area shape="rect" href="$sbs__commands_8h.html" title="Headerfile for sbs_commands.c." alt="" coords="48,229,171,256">
+<area shape="rect" href="$crc16_8h.html" title="Header file for CRC16 functions." alt="" coords="633,304,697,331">

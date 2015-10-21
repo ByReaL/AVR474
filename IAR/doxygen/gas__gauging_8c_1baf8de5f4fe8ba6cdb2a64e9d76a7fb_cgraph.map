@@ -1,0 +1,5 @@
+<area shape="rect" href="$battery__current__monitoring_8c.html#ae8592ed4c14b5a00048fe1ed1c68e4a" title="Provides the current from the last CC&#45;ADC reading (18&#45;bit signed)." alt="" coords="208,5,357,32">
+<area shape="rect" href="$battery__current__monitoring_8c.html#d971791f4fc1c6f54e1d7d46fea20786" title="Convert CCADC ticks to mA." alt="" coords="211,56,355,83">
+<area shape="rect" href="$cc__gas__gauging_8c.html#4a1ad76628aa8d3905b820ee0822dcf0" title="Convert accumulated to mAh." alt="" coords="212,107,353,133">
+<area shape="rect" href="$cc__gas__gauging_8c.html#6bd8ffcf294bdac1f08ce9b4406e834e" title="Read out raw values accumulated." alt="" coords="179,157,387,184">
+<area shape="rect" href="$vadc_8c.html#dc8b0995e310a115bb72c23830abdf49" title="Calculation of cell voltage." alt="" coords="205,208,360,235">

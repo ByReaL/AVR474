@@ -1,0 +1,8 @@
+<area shape="rect" href="$main_8c.html#a3f0a393a933d87a3e8713c4985a8ac8" title="Return true if there is any temperature error." alt="" coords="264,5,405,32">
+<area shape="rect" href="$battery__current__monitoring_8c.html#7509bf2a6930a4ba1a5a1927582c40bb" title="Is the current charging or discharging the battery." alt="" coords="233,56,436,83">
+<area shape="rect" href="$main_8c.html#a069db615d5edf9ae12c47823449c91d" title="Check if a battery temperature is within the limits." alt="" coords="249,107,420,133">
+<area shape="rect" href="$ntc__rh163h103f_8c.html#155078c5f59862038f49ed2fbe7fb542" title="Convert ADC reading to degress kelvin." alt="" coords="240,157,429,184">
+<area shape="rect" href="$vadc_8h.html#fe2bff8c0faa27e7b05b6049267150cc" title="VADC_readVadc" alt="" coords="275,208,395,235">
+<area shape="rect" href="$fet__control_8c.html#0258102f1334bb8a65f364e43b2e41fe" title="Disable the charge FET." alt="" coords="495,56,681,83">
+<area shape="rect" href="$fet__control_8c.html#047090a368a0a95c3c47a9c8f7602b8b" title="Disable the discharge FET." alt="" coords="487,107,689,133">
+<area shape="rect" href="$ntc__rh163h103f_8c.html#76b2433b5c2a0d233afc828770cd3fbf" title="Convert ADC reading to degress celsius." alt="" coords="489,157,687,184">

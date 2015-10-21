@@ -1,0 +1,4 @@
+<area shape="rect" href="$battery__current__monitoring_8c.html#90ab35d451c37cb0d641b5f037598441" title="Convert mA to CCADC tick." alt="" coords="217,5,361,32">
+<area shape="rect" href="$cc__gas__gauging_8c.html#4a1ad76628aa8d3905b820ee0822dcf0" title="Convert accumulated to mAh." alt="" coords="219,56,360,83">
+<area shape="rect" href="$gas__gauging_8c.html#86386fa7dbd384f1d29de0dc72d8820c" title="Returns the remaining capacity at specified current." alt="" coords="200,107,379,133">
+<area shape="rect" href="$cc__gas__gauging_8c.html#6bd8ffcf294bdac1f08ce9b4406e834e" title="Read out raw values accumulated." alt="" coords="427,107,635,133">

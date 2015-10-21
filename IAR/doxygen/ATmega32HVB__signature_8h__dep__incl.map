@@ -1,0 +1,5 @@
+<area shape="rect" href="$bandgap_8c.html" title="Routine for voltage reference calibration." alt="" coords="5,80,195,107">
+<area shape="rect" href="$rc__calibration_8c.html" title="Functions for calibrating and estimating clock periods of the RC Oscillators." alt="" coords="219,80,464,107">
+<area shape="rect" href="$vadc_8c.html" title="Routines for VADC measurements." alt="" coords="488,80,640,107">
+<area shape="rect" href="$crc16_8c.html" title="Contains a function for calculating the CRC for polynomial: x^16 + x^15 + x^2 + 1..." alt="" coords="664,80,800,107">
+<area shape="rect" href="$main_8c.html" title="Application for Smart Battery with ATmega32HVB (two, thre or four cell Li&#45;Ion) SBS..." alt="" coords="824,80,883,107">

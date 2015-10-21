@@ -1,0 +1,3 @@
+<area shape="rect" href="$ccadc_8c.html#a10e785327fcbf1bc692c30d790145b7" title="Returns result of an CC&#45;ADC Accumulated Conversion." alt="" coords="252,5,407,32">
+<area shape="rect" href="$ccadc_8c.html#059777fbbf56eeddb97a317a9301284b" title="Check if polarity was changed after last completed ACC conversion." alt="" coords="239,56,420,83">
+<area shape="rect" href="$ccadc_8c.html#e1fa828dd58f653f3beec1a90b27a3a4" title="Used to determine if a new CCADC accumulated current result is ready." alt="" coords="240,107,419,133">

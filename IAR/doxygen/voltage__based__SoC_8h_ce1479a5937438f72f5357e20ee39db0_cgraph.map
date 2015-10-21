@@ -1,0 +1,6 @@
+<area shape="rect" href="$voltage__based__SoC_8c.html#711f47676ef41fa51a7721e95498474b" title="Voltage conversion." alt="" coords="212,31,369,57">
+<area shape="rect" href="$voltage__based__SoC_8c.html#a575b7d78b65c89953c9b265ab4a181e" title="SoC conversion." alt="" coords="217,81,364,108">
+<area shape="rect" href="$vadc_8c.html#dc8b0995e310a115bb72c23830abdf49" title="Calculation of cell voltage." alt="" coords="213,132,368,159">
+<area shape="rect" href="$voltage__based__SoC_8c.html#568cb223b73b8d4d234670ebb0baefb6" title="Current conversion." alt="" coords="420,31,575,57">
+<area shape="rect" href="$battery__current__monitoring_8c.html#6a557e4dca31a58b1683861bf8f154e6" title="Provides the offset calibrated current from the last CC&#45;ADC reading." alt="" coords="624,5,867,32">
+<area shape="rect" href="$battery__current__monitoring_8c.html#d971791f4fc1c6f54e1d7d46fea20786" title="Convert CCADC ticks to mA." alt="" coords="673,56,817,83">

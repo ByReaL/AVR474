@@ -1,0 +1,119 @@
+<area shape="rect" href="$authentication_8c.html#b778a74bafbac2beb0b762b7a7dfc692" title="Run the chosen authentication algorithm." alt="" coords="192,95,301,121">
+<area shape="rect" href="$bandgap_8c.html#31dc899ff247c936eba72e8ba456f242" title="Bandgap initialisation." alt="" coords="167,171,327,197">
+<area shape="rect" href="$battery__current__monitoring_8c.html#3f516153abe33ea81943f5121a723ff1" title="Calculate the Shunt Coefficient for CCADC_Value to mA conversion." alt="" coords="461,917,685,944">
+<area shape="rect" href="$battery__current__monitoring_8c.html#0959c4b3bb0cee63ad2a3bdb89a92a6d" title="Provide an estimate for the average current throughout the last minute (18&#45;bit signed)..." alt="" coords="763,968,957,995">
+<area shape="rect" href="$battery__current__monitoring_8c.html#ae8592ed4c14b5a00048fe1ed1c68e4a" title="Provides the current from the last CC&#45;ADC reading (18&#45;bit signed)." alt="" coords="785,625,935,652">
+<area shape="rect" href="$battery__current__monitoring_8c.html#6a557e4dca31a58b1683861bf8f154e6" title="Provides the offset calibrated current from the last CC&#45;ADC reading." alt="" coords="1011,993,1253,1020">
+<area shape="rect" href="$battery__current__monitoring_8c.html#8b9942c60483ab80e9daf26fd8c98782" title="Init the average current counter." alt="" coords="136,3147,357,3173">
+<area shape="rect" href="$battery__current__monitoring_8c.html#8baedbc3e31405ed1b2d642808d21933" title="Stores the current from the last CC&#45;ADC reading ( mV, 18&#45;bit signed)." alt="" coords="167,3197,327,3224">
+<area shape="rect" href="$battery__pack__parameters_8c.html#5065b71bee21fadbac655dea93a3bfd0" title="Checks that the saved checksum in the battParams struct is correct." alt="" coords="161,3400,332,3427">
+<area shape="rect" href="$battery__pack__parameters_8c.html#2a74ba9369494e14ab1f69399f1b98dd" title="BATTPARAM_InitSramParameters" alt="" coords="136,3096,357,3123">
+<area shape="rect" href="$battery__protection_8c.html#3a75a8b4bc543399e6d6b4d6418ccb0d" title="Set the charging high&#45;current detection level and reaction time." alt="" coords="128,3451,365,3477">
+<area shape="rect" href="$battery__protection_8c.html#6edd08201b3fe6c1bfecc984bd9a9cd1" title="Set the discharging/charging over&#45;current detection level and reaction time." alt="" coords="128,3501,365,3528">
+<area shape="rect" href="$battery__protection_8c.html#cf9f300141b94fb760005ec4fef51d4c" title="Set the short&#45;circuit current detection level and reaction time." alt="" coords="128,3552,365,3579">
+<area shape="rect" href="$ccadc_8c.html#a0713dd1fe379d8acea94e7f9844cb92" title="Calculates the accumulating conversion offset." alt="" coords="155,3299,339,3325">
+<area shape="rect" href="$ccadc_8c.html#a10e785327fcbf1bc692c30d790145b7" title="Returns result of an CC&#45;ADC Accumulated Conversion." alt="" coords="496,3805,651,3832">
+<area shape="rect" href="$ccadc_8c.html#e1fa828dd58f653f3beec1a90b27a3a4" title="Used to determine if a new CCADC accumulated current result is ready." alt="" coords="484,3907,663,3933">
+<area shape="rect" href="$ccadc_8c.html#0b0c7df0d9cdfdbd2ed93dff245b123b" title="Returns the raw offset for the accumulating conversion." alt="" coords="159,3603,335,3629">
+<area shape="rect" href="$ccadc_8c.html#d33fcbcc8cffde4e80167e91d4c4ee41" title="Configuration of the CC&#45;ADC and Regular Current Level." alt="" coords="201,2995,292,3021">
+<area shape="rect" href="$ccadc_8c.html#afad5ab69f7a7df09fee8205f5c9a710" title="Selects mode of operation for the CC&#45;ADC." alt="" coords="184,3653,309,3680">
+<area shape="rect" href="$cc__gas__gauging_8c.html#a668152277e743de4a6dcdd2079136dc" title="Accumulation of CCADC measurements." alt="" coords="105,3704,388,3731">
+<area shape="rect" href="$cc__gas__gauging_8c.html#bb85088f311c13a7ca2dcc3c46a68935" title="Calculate the Shunt Coefficient for converting between accumulated and mAh." alt="" coords="453,1981,693,2008">
+<area shape="rect" href="$cc__gas__gauging_8c.html#524ffb0c818f674a80049a992a29928b" title="Update State of Charge." alt="" coords="480,2032,667,2059">
+<area shape="rect" href="$crc16_8c.html#84c20ac9ab8217c2c29983b203e3bb39" title="Check if the CRC of the data in the signature row is correct." alt="" coords="177,461,316,488">
+<area shape="rect" href="$communication_8c.html#2bab1f3bd066faa428e782b7417bc18a" title="Check Communication Status." alt="" coords="201,3755,292,3781">
+<area shape="rect" href="$communication_8c.html#bebcf5dbdcea576a31271721d411de4d" title="Parse command." alt="" coords="193,3805,300,3832">
+<area shape="rect" href="$communication_8c.html#98a59b5ab5cde59154465aab070afa30" title="Initialize TWI module." alt="" coords="205,3856,288,3883">
+<area shape="rect" href="$communication_8c.html#671390135cd0d30125661704332715a5" title="Check Communication State." alt="" coords="199,3907,295,3933">
+<area shape="rect" href="$main_8c.html#0b26b15d93cf12599106c4efc57e8272" title="Configure VADC scanning." alt="" coords="192,4008,301,4035">
+<area shape="rect" href="$vadc_8c.html#d643e5b97a0eb9cd93ae80e2527bbade" title="Select VADC channels to be scanned." alt="" coords="508,4008,639,4035">
+<area shape="rect" href="$main_8c.html#492861926b4fc152ad1def3695aaeaf5" title="Disable DUVR mode if possible." alt="" coords="169,1297,324,1324">
+<area shape="rect" href="$fet__control_8c.html#f783fdb3c3c3f69cf47b72ab89df5f6c" title="Disable the Deep Under Voltage mode (precharging at very low battery voltage)." alt="" coords="113,4059,380,4085">
+<area shape="rect" href="$fet__control_8c.html#16b63cca34a388992fee275392cb4c71" title="Disable both the charge and the discharge FETs." alt="" coords="784,2704,936,2731">
+<area shape="rect" href="$fet__control_8c.html#e9f760140f333a11a7e0c8085ab0abe3" title="Enable the charge FET." alt="" coords="155,4109,339,4136">
+<area shape="rect" href="$fet__control_8c.html#1d1c3c6a4ed8941736f166753c8bbf46" title="Enable the Deep Under Voltage mode (precharging at very low battery voltage)." alt="" coords="115,4160,379,4187">
+<area shape="rect" href="$fet__control_8c.html#3432d1c889ed86fd981bce7725d0682d" title="Enable the discharge FET." alt="" coords="147,4211,347,4237">
+<area shape="rect" href="$gas__gauging_8c.html#cfbc7e47153ec1e54e6fc85ddde14d26" title="Returns state of charge." alt="" coords="497,1221,649,1248">
+<area shape="rect" href="$main_8c.html#9985e5b9301e8ecdc5ef51c747d9c025" title="Handle a new result from the CC&#45;ADC." alt="" coords="164,2944,329,2971">
+<area shape="rect" href="$main_8c.html#c5e1648830816b0f3f9ce2309e8b7da5" title="Handle a new cell temperature." alt="" coords="157,2716,336,2743">
+<area shape="rect" href="$main_8c.html#555166b9d50c63472698721acfc26057" title="Handle a new cell voltage for cells." alt="" coords="172,2311,321,2337">
+<area shape="rect" href="$vadc_8c.html#a36cbd40622b622424c4d6af8fb2bef3" title="Check VADC scan status." alt="" coords="511,2488,636,2515">
+<area shape="rect" href="$main_8c.html#d796f8e3ff37c8495c342b32d6de57a2" title="Handle a new core temperature." alt="" coords="155,2615,339,2641">
+<area shape="rect" href="$main_8c.html#4cc87fab6ddd51f6598ed9bdb75bf4cf" title="Handle a SBS command." alt="" coords="175,1551,319,1577">
+<area shape="rect" href="$rc__calibration_8c.html#80054145825d11a31568f5d7ddbe948d" title="Calculate Ultra&#45;low power RC (Ulp RC) period time." alt="" coords="475,512,672,539">
+<area shape="rect" href="$rc__calibration_8c.html#01eda13db136451568e1c22f17b3ac40" title="Calculate Slow RC period time." alt="" coords="471,309,676,336">
+<area shape="rect" href="$rc__calibration_8c.html#344e46598bc6ed3bc1d025d10edd2578" title="Calibrate the Fast RC against the Slow RC oscillator runtime." alt="" coords="143,259,351,285">
+<area shape="rect" href="$rc__calibration_8c.html#d31c4916062296248c228bdee0e81395" title="Returns the current state of fast rc calibration." alt="" coords="185,4261,308,4288">
+<area shape="rect" href="$rc__calibration_8c.html#3324e52d9c103e1c3889824170dd7d08" title="Start the Fast RC calibration." alt="" coords="149,4312,344,4339">
+<area shape="rect" href="$main_8c.html#e87f06a2ec38c864bc7742b012559963" title="Initialization of the Watchdog." alt="" coords="181,4363,312,4389">
+<area shape="rect" href="$main_8c.html#35b1f3e0eb57bedd35d61664e5277763" title="Run this function every second." alt="" coords="189,3045,304,3072">
+<area shape="rect" href="$timer_8c.html#796038a9e9fe2f9ba2085423601c006b" title="SetLEDs" alt="" coords="537,4439,609,4465">
+<area shape="rect" href="$timer_8c.html#ce4de846d0e828d0f88226e06c6289eb" title="ShowLedBusy" alt="" coords="195,4515,299,4541">
+<area shape="rect" href="$timer_8c.html#0e464e8336ef775ece1a46c5ee102513" title="T1init" alt="" coords="221,4464,272,4491">
+<area shape="rect" href="$vadc_8c.html#e5465bb86b1978fdcdd6b962e050f373" title="Return true if new cell1 voltage readings are available." alt="" coords="160,4565,333,4592">
+<area shape="rect" href="$vadc_8h.html#99b4057dda042a6c75bcb9c65438278e" title="VADC_Cell2VoltageReady" alt="" coords="160,4616,333,4643">
+<area shape="rect" href="$vadc_8h.html#fb8ec45b3cfb76d7ef8b20f76a0fea8c" title="VADC_Cell3VoltageReady" alt="" coords="160,4667,333,4693">
+<area shape="rect" href="$vadc_8h.html#8277147eb095a6c442743e4f04166db9" title="VADC_Cell4VoltageReady" alt="" coords="160,4717,333,4744">
+<area shape="rect" href="$vadc_8c.html#ae4676ebbd808e1908f8163a9972aa2a" title="Return true if new cell temperature readings are available." alt="" coords="169,4768,324,4795">
+<area shape="rect" href="$vadc_8c.html#2394682eaa80101d85ce5d023beeaf5d" title="Clear the ready flags." alt="" coords="492,4844,655,4871">
+<area shape="rect" href="$vadc_8c.html#baaa20b9d383080b1f434dbaa5999e12" title="Return true if new cell2 voltage readings are available." alt="" coords="469,360,677,387">
+<area shape="rect" href="$vadc_8c.html#ed438796e781f411ac4cfbd3a89b2429" title="Start a scan of all VADC channels." alt="" coords="185,4869,308,4896">
+<area shape="rect" href="$vadc_8c.html#0b978ff704a91cd39fc99bd6dbe2031d" title="Return true if new core temperature reading s available." alt="" coords="176,4920,317,4947">
+<area shape="rect" href="$voltage__based__SoC_8c.html#ce1479a5937438f72f5357e20ee39db0" title="Returns the the latest estimated state of charge." alt="" coords="169,664,324,691">
+<area shape="rect" href="$voltage__based__SoC_8c.html#78d7f4f0eb9968d7e0468dc7eb01c2a2" title="Calculate the initial SoC." alt="" coords="529,765,617,792">
+<area shape="rect" href="$watchdog_8c.html#d5ea7103ea05ed5a58c44433a41f3f15" title="Change the timeout period of the Watchdog." alt="" coords="184,4971,309,4997">
+<area shape="rect" href="$aes__lib_8h.html#f7ae3deb5a042c61f91ed2ddd07c4369" title="Encrypt data block with on&#45;the&#45;fly calculation of key schedule in &#39;keyBuffer&#39;..." alt="" coords="524,5,623,32">
+<area shape="rect" href="$aes__lib_8h.html#6f7a07b5bf8a2d30106cdd404d7a2a94" title="Calculate starting point for key schedule to be used for encryption. Key must be..." alt="" coords="501,56,645,83">
+<area shape="rect" href="$HMAC-SHA2_8h.html#a105a294c8d3f2994ccbb041ca41c430" title="HMAC_SHA2" alt="" coords="524,107,623,133">
+<area shape="rect" href="$common_8h.html#8dec381e6ff65f996cc9b817e6939d6e" title="READ_SIGNATUREBYTE" alt="" coords="775,309,945,336">
+<area shape="rect" href="$ccadc_8c.html#99e4ffa15714d365505a8e83f023bb23" title="Returns the offset for the accumulating conversion." alt="" coords="497,3755,649,3781">
+<area shape="rect" href="$ccadc_8c.html#059777fbbf56eeddb97a317a9301284b" title="Check if polarity was changed after last completed ACC conversion." alt="" coords="769,3805,951,3832">
+<area shape="rect" href="$battery__current__monitoring_8c.html#90ab35d451c37cb0d641b5f037598441" title="Convert mA to CCADC tick." alt="" coords="1060,3375,1204,3401">
+<area shape="rect" href="$cc__gas__gauging_8c.html#374a10fc3c29a66f6867e608a35c3499" title="Convert mAh to accumulated." alt="" coords="789,3603,931,3629">
+<area shape="rect" href="$gas__gauging_8c.html#1fa50e74f27c4b27c656d0db0dd19b37" title="Calculate the remaining capacity calibration values." alt="" coords="437,3653,709,3680">
+<area shape="rect" href="$battery__current__monitoring_8c.html#490aa68cdebeff1cd6ca0f27c039139d" title="Convert mA to Rcc CCADC ticks." alt="" coords="776,3400,944,3427">
+<area shape="rect" href="$battery__pack__parameters_8c.html#5fbfd2634518b84744d78b3f57543052" title="Increase the cycle count by one." alt="" coords="461,3957,685,3984">
+<area shape="rect" href="$common_8h.html#a0b98702ca3e278cf893f4e3bba8ba0a" title="CRC_16_Atmel" alt="" coords="519,411,628,437">
+<area shape="rect" href="$common_8h.html#a16b708c9ea40f05cacc9d2e4456f741" title="READ_SIGNATUREWORD" alt="" coords="771,411,949,437">
+<area shape="rect" href="$vadc_8c.html#c2fd0c6752a999af5d7b98ccbfb082f6" title="Check if DUVR mode can be disabled and if so disable it." alt="" coords="501,1171,645,1197">
+<area shape="rect" href="$vadc_8c.html#dc8b0995e310a115bb72c23830abdf49" title="Calculation of cell voltage." alt="" coords="783,1728,937,1755">
+<area shape="rect" href="$gas__gauging_8c.html#86386fa7dbd384f1d29de0dc72d8820c" title="Returns the remaining capacity at specified current." alt="" coords="1043,2361,1221,2388">
+<area shape="rect" href="$cc__gas__gauging_8c.html#6bd8ffcf294bdac1f08ce9b4406e834e" title="Read out raw values accumulated." alt="" coords="1301,2780,1509,2807">
+<area shape="rect" href="$battery__current__monitoring_8c.html#5514ee0b54dac907d6cbb5572146f612" title="Is the current below the limit that defines standby operation (time to enter low..." alt="" coords="492,3045,655,3072">
+<area shape="rect" href="$battery__current__monitoring_8c.html#7509bf2a6930a4ba1a5a1927582c40bb" title="Is the current charging or discharging the battery." alt="" coords="472,2589,675,2616">
+<area shape="rect" href="$battery__current__monitoring_8c.html#cfd447102c06d4b657539fe1cd9f3f59" title="Calculates and stores the average current during the last minut (18&#45;bit signed)." alt="" coords="465,3096,681,3123">
+<area shape="rect" href="$cc__gas__gauging_8c.html#4a1ad76628aa8d3905b820ee0822dcf0" title="Convert accumulated to mAh." alt="" coords="1061,2755,1203,2781">
+<area shape="rect" href="$voltage__based__SoC_8c.html#96735c5df96b87b60cfd1222e1420adb" title="Reset the relaxation timer." alt="" coords="505,3147,641,3173">
+<area shape="rect" href="$rtc_8c.html#7fd4050fbdd5b78bdc45336b7f9c1724" title="Return number of minutes since start." alt="" coords="800,2476,920,2503">
+<area shape="rect" href="$main_8c.html#a3f0a393a933d87a3e8713c4985a8ac8" title="Return true if there is any temperature error." alt="" coords="503,2640,644,2667">
+<area shape="rect" href="$main_8c.html#a069db615d5edf9ae12c47823449c91d" title="Check if a battery temperature is within the limits." alt="" coords="488,2691,659,2717">
+<area shape="rect" href="$ntc__rh163h103f_8c.html#155078c5f59862038f49ed2fbe7fb542" title="Convert ADC reading to degress kelvin." alt="" coords="479,2843,668,2869">
+<area shape="rect" href="$vadc_8h.html#fe2bff8c0faa27e7b05b6049267150cc" title="VADC_readVadc" alt="" coords="513,2741,633,2768">
+<area shape="rect" href="$fet__control_8c.html#0258102f1334bb8a65f364e43b2e41fe" title="Disable the charge FET." alt="" coords="767,2285,953,2312">
+<area shape="rect" href="$fet__control_8c.html#047090a368a0a95c3c47a9c8f7602b8b" title="Disable the discharge FET." alt="" coords="759,2336,961,2363">
+<area shape="rect" href="$ntc__rh163h103f_8c.html#76b2433b5c2a0d233afc828770cd3fbf" title="Convert ADC reading to degress celsius." alt="" coords="761,2843,959,2869">
+<area shape="rect" href="$battery__voltage__monitoring_8c.html#5e2404a51e229d6ebbef3947c678a3c5" title="Investigate if any of the battery cells are too high." alt="" coords="463,2083,684,2109">
+<area shape="rect" href="$battery__voltage__monitoring_8c.html#3896cc743e5299ec912ec41485edaaa0" title="Investigate if the battery cells are too low." alt="" coords="464,2133,683,2160">
+<area shape="rect" href="$main_8c.html#38e11c8b50a00ef91f4be286319d904e" title="Enter power&#45;off if allowed." alt="" coords="524,2387,623,2413">
+<area shape="rect" href="$voltage__based__SoC_8c.html#3cfbb7f6888a90eb03eeb14e7f4b00aa" title="Returns the the latest open circuit state of charge." alt="" coords="516,2437,631,2464">
+<area shape="rect" href="$voltage__based__SoC_8c.html#9708e584eda79bcf685b716b25e66765" title="Updates the SoC." alt="" coords="517,2184,629,2211">
+<area shape="rect" href="$voltage__based__SoC_8c.html#a575b7d78b65c89953c9b265ab4a181e" title="SoC conversion." alt="" coords="787,791,933,817">
+<area shape="rect" href="$vadc_8c.html#ae4c822ab63bf82a578b0489e1b52129" title="Calculation of chip temperature." alt="" coords="471,2539,676,2565">
+<area shape="rect" href="$authentication_8c.html#4c74408e63faa5967888c6b81c348a28" title="Copy key from eeprom to sram." alt="" coords="503,1373,644,1400">
+<area shape="rect" href="$battery__current__monitoring_8c.html#d971791f4fc1c6f54e1d7d46fea20786" title="Convert CCADC ticks to mA." alt="" coords="1060,867,1204,893">
+<area shape="rect" href="$battery__pack__parameters_8c.html#fda92ef981c1c18914a0f33453ad7a72" title="Return the number of cycles." alt="" coords="476,1424,671,1451">
+<area shape="rect" href="$battery__pack__parameters_8c.html#ac467dae84145a955bd85ad5198bc807" title="Copy a SBS block." alt="" coords="492,1475,655,1501">
+<area shape="rect" href="$battery__protection_8c.html#988aff3a3cceb987229ece4fce86308a" title="Checks if Battery Protection has been triggered." alt="" coords="465,2944,681,2971">
+<area shape="rect" href="$communication_8c.html#1efd4641b8a2e2b7d2daddb0b38245a6" title="Reply to a SBS read block command." alt="" coords="467,1525,680,1552">
+<area shape="rect" href="$communication_8c.html#6f68436ccb337585587e7fa8ca888bda" title="Reply to a SBS read word command." alt="" coords="468,1576,679,1603">
+<area shape="rect" href="$gas__gauging_8c.html#1baf8de5f4fe8ba6cdb2a64e9d76a7fb" title="Check if battery can support specified discharge current for 10seconds." alt="" coords="511,1120,636,1147">
+<area shape="rect" href="$gas__gauging_8c.html#17d5adf37f8f1ab7851727ec3335f501" title="Estimate time to empty." alt="" coords="787,3096,933,3123">
+<area shape="rect" href="$gas__gauging_8c.html#8b1dc7b992d0aaf38f84bd57ea0f1e6d" title="Estimate time to full." alt="" coords="796,1677,924,1704">
+<area shape="rect" href="$vreg__mon_8c.html#f99b8c94e354f4e792aa768f82e0a3cb" title="Number of times VREGMON has been triggered." alt="" coords="472,1627,675,1653">
+<area shape="rect" href="$rc__calibration_8c.html#346b53f8df2aad519bda12f6a90bbfab" title="Measure OSI prescaled clock periods." alt="" coords="457,259,689,285">
+<area shape="rect" href="$battery__protection_8c.html#3584a066791a0ce5c3ac7357c9d5a3b9" title="Clear charge protection counter." alt="" coords="439,3451,708,3477">
+<area shape="rect" href="$battery__protection_8c.html#6fc50879f599043fda7207475aace781" title="Get charge protection counter." alt="" coords="443,3501,704,3528">
+<area shape="rect" href="$rtc_8c.html#001aef73d9b426aa872b4e8555e772a3" title="Add one second to the time." alt="" coords="513,3552,633,3579">
+<area shape="rect" href="$main_8c.html#e9fe9128363c0ecf3db954a1e07825e9" title="Run this function every minute." alt="" coords="519,3197,628,3224">
+<area shape="rect" href="$voltage__based__SoC_8c.html#711f47676ef41fa51a7721e95498474b" title="Voltage conversion." alt="" coords="495,613,652,640">
+<area shape="rect" href="$voltage__based__SoC_8c.html#568cb223b73b8d4d234670ebb0baefb6" title="Current conversion." alt="" coords="783,740,937,767">

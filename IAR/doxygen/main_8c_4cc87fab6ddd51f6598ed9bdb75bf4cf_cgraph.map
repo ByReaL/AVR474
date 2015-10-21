@@ -1,0 +1,31 @@
+<area shape="rect" href="$authentication_8c.html#4c74408e63faa5967888c6b81c348a28" title="Copy key from eeprom to sram." alt="" coords="251,5,392,32">
+<area shape="rect" href="$battery__current__monitoring_8c.html#3f516153abe33ea81943f5121a723ff1" title="Calculate the Shunt Coefficient for CCADC_Value to mA conversion." alt="" coords="209,56,433,83">
+<area shape="rect" href="$battery__current__monitoring_8c.html#0959c4b3bb0cee63ad2a3bdb89a92a6d" title="Provide an estimate for the average current throughout the last minute (18&#45;bit signed)..." alt="" coords="224,107,419,133">
+<area shape="rect" href="$battery__current__monitoring_8c.html#6a557e4dca31a58b1683861bf8f154e6" title="Provides the offset calibrated current from the last CC&#45;ADC reading." alt="" coords="200,157,443,184">
+<area shape="rect" href="$battery__current__monitoring_8c.html#7509bf2a6930a4ba1a5a1927582c40bb" title="Is the current charging or discharging the battery." alt="" coords="220,208,423,235">
+<area shape="rect" href="$battery__current__monitoring_8c.html#d971791f4fc1c6f54e1d7d46fea20786" title="Convert CCADC ticks to mA." alt="" coords="509,233,653,260">
+<area shape="rect" href="$battery__pack__parameters_8c.html#fda92ef981c1c18914a0f33453ad7a72" title="Return the number of cycles." alt="" coords="224,664,419,691">
+<area shape="rect" href="$battery__pack__parameters_8c.html#ac467dae84145a955bd85ad5198bc807" title="Copy a SBS block." alt="" coords="240,715,403,741">
+<area shape="rect" href="$battery__protection_8c.html#988aff3a3cceb987229ece4fce86308a" title="Checks if Battery Protection has been triggered." alt="" coords="213,765,429,792">
+<area shape="rect" href="$cc__gas__gauging_8c.html#4a1ad76628aa8d3905b820ee0822dcf0" title="Convert accumulated to mAh." alt="" coords="511,436,652,463">
+<area shape="rect" href="$cc__gas__gauging_8c.html#bb85088f311c13a7ca2dcc3c46a68935" title="Calculate the Shunt Coefficient for converting between accumulated and mAh." alt="" coords="201,816,441,843">
+<area shape="rect" href="$cc__gas__gauging_8c.html#374a10fc3c29a66f6867e608a35c3499" title="Convert mAh to accumulated." alt="" coords="251,867,392,893">
+<area shape="rect" href="$communication_8c.html#1efd4641b8a2e2b7d2daddb0b38245a6" title="Reply to a SBS read block command." alt="" coords="215,917,428,944">
+<area shape="rect" href="$communication_8c.html#6f68436ccb337585587e7fa8ca888bda" title="Reply to a SBS read word command." alt="" coords="216,968,427,995">
+<area shape="rect" href="$main_8c.html#38e11c8b50a00ef91f4be286319d904e" title="Enter power&#45;off if allowed." alt="" coords="272,1019,371,1045">
+<area shape="rect" href="$fet__control_8c.html#0258102f1334bb8a65f364e43b2e41fe" title="Disable the charge FET." alt="" coords="228,1069,415,1096">
+<area shape="rect" href="$fet__control_8c.html#047090a368a0a95c3c47a9c8f7602b8b" title="Disable the discharge FET." alt="" coords="220,1120,423,1147">
+<area shape="rect" href="$gas__gauging_8c.html#1baf8de5f4fe8ba6cdb2a64e9d76a7fb" title="Check if battery can support specified discharge current for 10seconds." alt="" coords="259,309,384,336">
+<area shape="rect" href="$vadc_8c.html#dc8b0995e310a115bb72c23830abdf49" title="Calculation of cell voltage." alt="" coords="504,385,659,412">
+<area shape="rect" href="$gas__gauging_8c.html#86386fa7dbd384f1d29de0dc72d8820c" title="Returns the remaining capacity at specified current." alt="" coords="492,537,671,564">
+<area shape="rect" href="$gas__gauging_8c.html#cfbc7e47153ec1e54e6fc85ddde14d26" title="Returns state of charge." alt="" coords="245,563,397,589">
+<area shape="rect" href="$gas__gauging_8c.html#17d5adf37f8f1ab7851727ec3335f501" title="Estimate time to empty." alt="" coords="248,461,395,488">
+<area shape="rect" href="$gas__gauging_8c.html#8b1dc7b992d0aaf38f84bd57ea0f1e6d" title="Estimate time to full." alt="" coords="257,512,385,539">
+<area shape="rect" href="$rc__calibration_8c.html#80054145825d11a31568f5d7ddbe948d" title="Calculate Ultra&#45;low power RC (Ulp RC) period time." alt="" coords="223,1171,420,1197">
+<area shape="rect" href="$vreg__mon_8c.html#f99b8c94e354f4e792aa768f82e0a3cb" title="Number of times VREGMON has been triggered." alt="" coords="220,1221,423,1248">
+<area shape="rect" href="$fet__control_8c.html#16b63cca34a388992fee275392cb4c71" title="Disable both the charge and the discharge FETs." alt="" coords="505,1019,657,1045">
+<area shape="rect" href="$battery__current__monitoring_8c.html#ae8592ed4c14b5a00048fe1ed1c68e4a" title="Provides the current from the last CC&#45;ADC reading (18&#45;bit signed)." alt="" coords="507,335,656,361">
+<area shape="rect" href="$cc__gas__gauging_8c.html#6bd8ffcf294bdac1f08ce9b4406e834e" title="Read out raw values accumulated." alt="" coords="720,411,928,437">
+<area shape="rect" href="$battery__current__monitoring_8c.html#90ab35d451c37cb0d641b5f037598441" title="Convert mA to CCADC tick." alt="" coords="509,487,653,513">
+<area shape="rect" href="$common_8h.html#8dec381e6ff65f996cc9b817e6939d6e" title="READ_SIGNATUREBYTE" alt="" coords="496,1145,667,1172">
+<area shape="rect" href="$common_8h.html#a16b708c9ea40f05cacc9d2e4456f741" title="READ_SIGNATUREWORD" alt="" coords="492,1196,671,1223">

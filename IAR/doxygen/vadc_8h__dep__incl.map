@@ -1,0 +1,20 @@
+<area shape="rect" href="$vadc_8c.html" title="Routines for VADC measurements." alt="" coords="5,80,157,107">
+<area shape="rect" href="$battery__pack__parameters_8h.html" title="Definition file for a smart battery pack." alt="" coords="1253,80,1632,107">
+<area shape="rect" href="$voltage__based__SoC_8c.html" title="Functions for estimating State of Charge based on voltage." alt="" coords="3060,229,3372,256">
+<area shape="rect" href="$main_8c.html" title="Application for Smart Battery with ATmega32HVB (two, thre or four cell Li&#45;Ion) SBS..." alt="" coords="895,229,953,256">
+<area shape="rect" href="$battery__voltage__monitoring_8c.html" title="Battery cell voltage monitoring firmware module." alt="" coords="49,229,441,256">
+<area shape="rect" href="$ccadc_8h.html" title="CCADC module header file." alt="" coords="3133,155,3299,181">
+<area shape="rect" href="$battery__current__monitoring_8c.html" title="CC&#45;ADC result processing firmware module." alt="" coords="2641,229,3036,256">
+<area shape="rect" href="$aes__lib_8c.html" title="AES library." alt="" coords="1949,155,2181,181">
+<area shape="rect" href="$aes__lib_8h.html" title="AES library." alt="" coords="2205,155,2437,181">
+<area shape="rect" href="$authentication_8h.html" title="Headerfile for authentication.c." alt="" coords="800,155,1048,181">
+<area shape="rect" href="$authentication_8c.html" title="Functions for taking care of the authentication command." alt="" coords="605,229,853,256">
+<area shape="rect" href="$HMAC-SHA2_8c.html" title="Routines for SHA&#45;256 and HMAC&#45;SHA256." alt="" coords="2461,155,2784,181">
+<area shape="rect" href="$battery__current__monitoring_8h.html" title="Header file for CC&#45;ADC result processing firmware module." alt="" coords="1531,155,1925,181">
+<area shape="rect" href="$battery__pack__parameters_8c.html" title="Definition file for a smart battery pack." alt="" coords="977,229,1356,256">
+<area shape="rect" href="$gas__gauging_8c.html" title="Gas gauging module for calculating time to empty, time to full etc." alt="" coords="1575,229,1807,256">
+<area shape="rect" href="$battery__voltage__monitoring_8h.html" title="Header file for bettery voltage monitoring firmware module." alt="" coords="283,155,675,181">
+<area shape="rect" href="$cc__gas__gauging_8c.html" title="Coulomb based gas gauging." alt="" coords="2808,155,3059,181">
+<area shape="rect" href="$gas__gauging_8h.html" title="Gas gauging module for calculating time to empty, time to full etc." alt="" coords="1173,155,1405,181">
+<area shape="rect" href="$smbus_8c.html" title="The communication file reads a command from the SMB bus and sends r/w, data and length..." alt="" coords="1380,229,1551,256">
+<area shape="rect" href="$ccadc_8c.html" title="CCADC module." alt="" coords="3396,229,3561,256">

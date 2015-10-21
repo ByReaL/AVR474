@@ -1,0 +1,20 @@
+<area shape="rect" href="$battery__current__monitoring_8c.html" title="CC&#45;ADC result processing firmware module." alt="" coords="3379,229,3773,256">
+<area shape="rect" href="$battery__pack__parameters_8h.html" title="Definition file for a smart battery pack." alt="" coords="1673,80,2052,107">
+<area shape="rect" href="$voltage__based__SoC_8c.html" title="Functions for estimating State of Charge based on voltage." alt="" coords="3043,229,3355,256">
+<area shape="rect" href="$main_8c.html" title="Application for Smart Battery with ATmega32HVB (two, thre or four cell Li&#45;Ion) SBS..." alt="" coords="1907,229,1965,256">
+<area shape="rect" href="$battery__pack__parameters_8c.html" title="Definition file for a smart battery pack." alt="" coords="5,229,384,256">
+<area shape="rect" href="$gas__gauging_8c.html" title="Gas gauging module for calculating time to empty, time to full etc." alt="" coords="603,229,835,256">
+<area shape="rect" href="$ccadc_8h.html" title="CCADC module header file." alt="" coords="2947,155,3112,181">
+<area shape="rect" href="$vadc_8h.html" title="Headerfile for vadc_usage.c." alt="" coords="2771,155,2923,181">
+<area shape="rect" href="$battery__voltage__monitoring_8c.html" title="Battery cell voltage monitoring firmware module." alt="" coords="2261,229,2653,256">
+<area shape="rect" href="$aes__lib_8c.html" title="AES library." alt="" coords="797,155,1029,181">
+<area shape="rect" href="$aes__lib_8h.html" title="AES library." alt="" coords="1053,155,1285,181">
+<area shape="rect" href="$authentication_8h.html" title="Headerfile for authentication.c." alt="" coords="1981,155,2229,181">
+<area shape="rect" href="$authentication_8c.html" title="Functions for taking care of the authentication command." alt="" coords="1989,229,2237,256">
+<area shape="rect" href="$HMAC-SHA2_8c.html" title="Routines for SHA&#45;256 and HMAC&#45;SHA256." alt="" coords="1309,155,1632,181">
+<area shape="rect" href="$battery__voltage__monitoring_8h.html" title="Header file for bettery voltage monitoring firmware module." alt="" coords="2253,155,2645,181">
+<area shape="rect" href="$cc__gas__gauging_8c.html" title="Coulomb based gas gauging." alt="" coords="1656,155,1907,181">
+<area shape="rect" href="$gas__gauging_8h.html" title="Gas gauging module for calculating time to empty, time to full etc." alt="" coords="440,155,672,181">
+<area shape="rect" href="$smbus_8c.html" title="The communication file reads a command from the SMB bus and sends r/w, data and length..." alt="" coords="408,229,579,256">
+<area shape="rect" href="$ccadc_8c.html" title="CCADC module." alt="" coords="2853,229,3019,256">
+<area shape="rect" href="$vadc_8c.html" title="Routines for VADC measurements." alt="" coords="2677,229,2829,256">

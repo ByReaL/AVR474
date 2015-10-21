@@ -1,0 +1,10 @@
+<area shape="rect" href="$common_8h.html" title="Common headerfile." alt="" coords="273,304,356,331">
+<area shape="rect" href="$ATmega32HVB__signature_8h.html" title="Signature row defines for ATmega16HVB and ATmega32HVB." alt="" coords="17,155,199,181">
+<area shape="rect" href="$vadc_8h.html" title="Headerfile for vadc_usage.c." alt="" coords="293,80,352,107">
+<area shape="rect" href="$stdint_8h.html" title="stdint.h" alt="" coords="409,379,473,405">
+<area shape="rect" href="$error_8h.html" title="error.h" alt="" coords="244,379,303,405">
+<area shape="rect" href="$battery__pack__parameters_8h.html" title="Definition file for a smart battery pack." alt="" coords="379,155,557,181">
+<area shape="rect" href="$sbs__commands_8h.html" title="Headerfile for sbs_commands.c." alt="" coords="253,229,376,256">
+<area shape="rect" href="$battery__protection_8h.html" title="Header file for Battery Protection peripheral module driver." alt="" coords="400,229,536,256">
+<area shape="rect" href="$battery__current__monitoring_8h.html" title="Header file for CC&#45;ADC result processing firmware module." alt="" coords="560,229,747,256">
+<area shape="rect" href="$crc16_8h.html" title="Header file for CRC16 functions." alt="" coords="503,304,567,331">

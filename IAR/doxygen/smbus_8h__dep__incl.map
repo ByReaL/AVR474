@@ -1,0 +1,4 @@
+<area shape="rect" href="$communication_8c.html" title="The communication file reads a command from the SMB bus and sends r/w, data and length..." alt="" coords="5,80,267,107">
+<area shape="rect" href="$smbus_8c.html" title="The communication file reads a command from the SMB bus and sends r/w, data and length..." alt="" coords="291,80,461,107">
+<area shape="rect" href="$timer_8c.html" title="Timer routines." alt="" coords="485,80,629,107">
+<area shape="rect" href="$main_8c.html" title="Application for Smart Battery with ATmega32HVB (two, thre or four cell Li&#45;Ion) SBS..." alt="" coords="653,80,712,107">

@@ -1,0 +1,5 @@
+<area shape="rect" href="$battery__current__monitoring_8c.html#0959c4b3bb0cee63ad2a3bdb89a92a6d" title="Provide an estimate for the average current throughout the last minute (18&#45;bit signed)..." alt="" coords="169,5,364,32">
+<area shape="rect" href="$smbus__removed_8c.html#7e26bdd453b4e280347491f250b54b5b" title="FillResponseInt" alt="" coords="212,56,321,83">
+<area shape="rect" href="$gas__gauging_8c.html#cfbc7e47153ec1e54e6fc85ddde14d26" title="Returns state of charge." alt="" coords="191,107,343,133">
+<area shape="rect" href="$gas__gauging_8c.html#86386fa7dbd384f1d29de0dc72d8820c" title="Returns the remaining capacity at specified current." alt="" coords="413,107,592,133">
+<area shape="rect" href="$cc__gas__gauging_8c.html#6bd8ffcf294bdac1f08ce9b4406e834e" title="Read out raw values accumulated." alt="" coords="640,107,848,133">

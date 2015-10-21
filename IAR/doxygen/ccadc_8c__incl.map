@@ -1,0 +1,11 @@
+<area shape="rect" href="$common_8h.html" title="Common headerfile." alt="" coords="275,304,357,331">
+<area shape="rect" href="$ccadc_8h.html" title="CCADC module header file." alt="" coords="435,80,501,107">
+<area shape="rect" href="$watchdog_8h.html" title="Header file for Watchdog Timer peripheral module driver." alt="" coords="5,155,93,181">
+<area shape="rect" href="$stdint_8h.html" title="stdint.h" alt="" coords="85,379,149,405">
+<area shape="rect" href="$error_8h.html" title="error.h" alt="" coords="437,379,496,405">
+<area shape="rect" href="$battery__pack__parameters_8h.html" title="Definition file for a smart battery pack." alt="" coords="231,155,409,181">
+<area shape="rect" href="$sbs__commands_8h.html" title="Headerfile for sbs_commands.c." alt="" coords="80,229,203,256">
+<area shape="rect" href="$vadc_8h.html" title="Headerfile for vadc_usage.c." alt="" coords="227,229,285,256">
+<area shape="rect" href="$battery__protection_8h.html" title="Header file for Battery Protection peripheral module driver." alt="" coords="309,229,445,256">
+<area shape="rect" href="$battery__current__monitoring_8h.html" title="Header file for CC&#45;ADC result processing firmware module." alt="" coords="469,229,656,256">
+<area shape="rect" href="$crc16_8h.html" title="Header file for CRC16 functions." alt="" coords="85,304,149,331">

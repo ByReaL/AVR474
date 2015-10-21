@@ -1,0 +1,12 @@
+<area shape="rect" href="$common_8h.html" title="Common headerfile." alt="" coords="287,304,369,331">
+<area shape="rect" href="$vadc_8h.html" title="Headerfile for vadc_usage.c." alt="" coords="245,80,304,107">
+<area shape="rect" href="$battery__current__monitoring_8h.html" title="Header file for CC&#45;ADC result processing firmware module." alt="" coords="324,229,511,256">
+<area shape="rect" href="$ccadc_8h.html" title="CCADC module header file." alt="" coords="495,80,561,107">
+<area shape="rect" href="$voltage__based__SoC_8h.html" title="Contains defines, typedefinitions and functions prototypes for voltage_based_SoC..." alt="" coords="697,80,844,107">
+<area shape="rect" href="$rtc_8h.html" title="Headerfile for rtc.c." alt="" coords="575,155,623,181">
+<area shape="rect" href="$stdint_8h.html" title="stdint.h" alt="" coords="75,379,139,405">
+<area shape="rect" href="$error_8h.html" title="error.h" alt="" coords="427,379,485,405">
+<area shape="rect" href="$battery__pack__parameters_8h.html" title="Definition file for a smart battery pack." alt="" coords="185,155,364,181">
+<area shape="rect" href="$sbs__commands_8h.html" title="Headerfile for sbs_commands.c." alt="" coords="177,229,300,256">
+<area shape="rect" href="$battery__protection_8h.html" title="Header file for Battery Protection peripheral module driver." alt="" coords="17,229,153,256">
+<area shape="rect" href="$crc16_8h.html" title="Header file for CRC16 functions." alt="" coords="75,304,139,331">

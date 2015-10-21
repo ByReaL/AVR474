@@ -1,0 +1,47 @@
+<area shape="rect" href="$ATmega32HVB__signature_8h.html" title="Signature row defines for ATmega16HVB and ATmega32HVB." alt="" coords="260,80,468,107">
+<area shape="rect" href="$bandgap_8c.html" title="Routine for voltage reference calibration." alt="" coords="17,155,207,181">
+<area shape="rect" href="$rc__calibration_8c.html" title="Functions for calibrating and estimating clock periods of the RC Oscillators." alt="" coords="593,155,839,181">
+<area shape="rect" href="$vadc_8c.html" title="Routines for VADC measurements." alt="" coords="328,304,480,331">
+<area shape="rect" href="$main_8c.html" title="Application for Smart Battery with ATmega32HVB (two, thre or four cell Li&#45;Ion) SBS..." alt="" coords="1815,304,1873,331">
+<area shape="rect" href="$bandgap_8h.html" title="Headerfile for bandgap.c." alt="" coords="964,229,1153,256">
+<area shape="rect" href="$battery__protection_8c.html" title="Battery Protection peripheral module driver." alt="" coords="2660,155,2959,181">
+<area shape="rect" href="$battery__protection_8h.html" title="Header file for Battery Protection peripheral module driver." alt="" coords="2847,80,3145,107">
+<area shape="rect" href="$ccadc_8h.html" title="CCADC module header file." alt="" coords="2311,229,2476,256">
+<area shape="rect" href="$ccadc_8c.html" title="CCADC module." alt="" coords="2179,304,2344,331">
+<area shape="rect" href="$battery__current__monitoring_8c.html" title="CC&#45;ADC result processing firmware module." alt="" coords="4061,304,4456,331">
+<area shape="rect" href="$voltage__based__SoC_8c.html" title="Functions for estimating State of Charge based on voltage." alt="" coords="2368,304,2680,331">
+<area shape="rect" href="$vadc_8h.html" title="Headerfile for vadc_usage.c." alt="" coords="1983,229,2135,256">
+<area shape="rect" href="$battery__voltage__monitoring_8c.html" title="Battery cell voltage monitoring firmware module." alt="" coords="1356,304,1748,331">
+<area shape="rect" href="$authentication_8h.html" title="Headerfile for authentication.c." alt="" coords="2551,229,2799,256">
+<area shape="rect" href="$battery__current__monitoring_8h.html" title="Header file for CC&#45;ADC result processing firmware module." alt="" coords="4209,229,4604,256">
+<area shape="rect" href="$battery__pack__parameters_8c.html" title="Definition file for a smart battery pack." alt="" coords="4567,304,4945,331">
+<area shape="rect" href="$gas__gauging_8c.html" title="Gas gauging module for calculating time to empty, time to full etc." alt="" coords="4969,304,5201,331">
+<area shape="rect" href="$battery__voltage__monitoring_8h.html" title="Header file for bettery voltage monitoring firmware module." alt="" coords="1313,229,1705,256">
+<area shape="rect" href="$gas__gauging_8h.html" title="Gas gauging module for calculating time to empty, time to full etc." alt="" coords="4969,229,5201,256">
+<area shape="rect" href="$smbus_8c.html" title="The communication file reads a command from the SMB bus and sends r/w, data and length..." alt="" coords="5364,304,5535,331">
+<area shape="rect" href="$fet__control_8c.html" title="FET control peripheral module driver." alt="" coords="1495,155,1705,181">
+<area shape="rect" href="$fet__control_8h.html" title="Header file for FET control peripheral module driver." alt="" coords="1633,80,1844,107">
+<area shape="rect" href="$rc__calibration_8h.html" title="Defines and prototypes for rc_calibration.c." alt="" coords="644,80,889,107">
+<area shape="rect" href="$vreg__mon_8h.html" title="Headerfile for vreg_mon.c." alt="" coords="1015,80,1217,107">
+<area shape="rect" href="$watchdog_8c.html" title="Watchdog Timer peripheral module driver." alt="" coords="2129,155,2332,181">
+<area shape="rect" href="$watchdog_8h.html" title="Header file for Watchdog Timer peripheral module driver." alt="" coords="2268,80,2471,107">
+<area shape="rect" href="$communication_8c.html" title="The communication file reads a command from the SMB bus and sends r/w, data and length..." alt="" coords="5529,155,5791,181">
+<area shape="rect" href="$crc8_8h.html" title="Simple 8bit CRC." alt="" coords="5592,80,5720,107">
+<area shape="rect" href="$crc8_8c.html" title="Simple 8bit CRC." alt="" coords="5815,155,5943,181">
+<area shape="rect" href="$cc__gas__gauging_8h.html" title="Gas gauging header file." alt="" coords="4807,155,5057,181">
+<area shape="rect" href="$ntc__rh163h103f_8c.html" title="Routines for converting result from a RH163h103f thermistor to either celsius or..." alt="" coords="1831,155,2105,181">
+<area shape="rect" href="$ntc__rh163h103f_8h.html" title="Headerfile for ntc_rh163h103f.c." alt="" coords="1868,80,2143,107">
+<area shape="rect" href="$pwr__mgmnt_8h.html" title="Contains defines for setting of sleep modes and entering sleep, and for disabling..." alt="" coords="1241,80,1508,107">
+<area shape="rect" href="$rtc_8h.html" title="Headerfile for rtc.c." alt="" coords="4628,229,4743,256">
+<area shape="rect" href="$rtc_8c.html" title="Simple RTC." alt="" coords="5225,304,5340,331">
+<area shape="rect" href="$SBS__commands_8c.html" title="Data structures and access methods for smart battery data set." alt="" coords="4095,155,4369,181">
+<area shape="rect" href="$sbs__commands_8h.html" title="Headerfile for sbs_commands.c." alt="" coords="3356,80,3625,107">
+<area shape="rect" href="$timer_8c.html" title="Timer routines." alt="" coords="5795,80,5939,107">
+<area shape="rect" href="$crc16_8c.html" title="Contains a function for calculating the CRC for polynomial: x^16 + x^15 + x^2 + 1..." alt="" coords="231,155,367,181">
+<area shape="rect" href="$battery__pack__parameters_8h.html" title="Definition file for a smart battery pack." alt="" coords="3301,155,3680,181">
+<area shape="rect" href="$aes__lib_8c.html" title="AES library." alt="" coords="2873,229,3105,256">
+<area shape="rect" href="$aes__lib_8h.html" title="AES library." alt="" coords="3129,229,3361,256">
+<area shape="rect" href="$authentication_8c.html" title="Functions for taking care of the authentication command." alt="" coords="3621,304,3869,331">
+<area shape="rect" href="$HMAC-SHA2_8c.html" title="Routines for SHA&#45;256 and HMAC&#45;SHA256." alt="" coords="3385,229,3708,256">
+<area shape="rect" href="$cc__gas__gauging_8c.html" title="Coulomb based gas gauging." alt="" coords="3783,229,4033,256">
+<area shape="rect" href="$vreg__mon_8c.html" title="Voltage regulator monitoring interface routines." alt="" coords="1167,155,1369,181">

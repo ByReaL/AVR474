@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1507755913</fileChecksum>
+  <configuration>
+    <name>SB202-2 Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\lib_mcu\authentication\authentication.c</file>
+      <file>$PROJ_DIR$\lib_board\cc-adc\ccadc.h</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\rc_calibration.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\vreg_mon.pbi</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\rtc.r90</file>
+      <file>$TOOLKIT_DIR$\inc\iom32hvb.h</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\rtc.pbi</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\main.r90</file>
+      <file>$PROJ_DIR$\lib_mcu\battery_voltage_monitoring\battery_voltage_monitoring.h</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\timer.r90</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\smbus.pbi</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\crc8.pbi</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\authentication.pbi</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\asm_functions.r90</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\rc_calibration.r90</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\vadc.r90</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\fet_control.r90</file>
+      <file>$PROJ_DIR$\lib_mcu\authentication\HMAC-SHA2\HMAC-SHA2.h</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\fet_control.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iom32hvb.inc</file>
+      <file>$PROJ_DIR$\lib_mcu\authentication\authentication.h</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\aes_lib.r90</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\battery_voltage_monitoring.r90</file>
+      <file>$PROJ_DIR$\lib_board\rc_calibration\rc_calibration.h</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\bandgap.pbi</file>
+      <file>$PROJ_DIR$\lib_mcu\gas_gauging\cc_gas_gauging.h</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\HMAC-SHA2.pbi</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\voltage_based_SoC.r90</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\crc16.pbi</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\authentication.r90</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\battery_pack_parameters.pbi</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\crc8.r90</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\battery_current_monitoring.pbi</file>
+      <file>$PROJ_DIR$\lib_mcu\rtc\rtc.h</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\crc16.r90</file>
+      <file>$PROJ_DIR$\conf\common.h</file>
+      <file>$PROJ_DIR$\lib_mcu\authentication\aes\aes_lib.c</file>
+      <file>$PROJ_DIR$\lib_mcu\gas_gauging\cc_gas_gauging.c</file>
+      <file>$PROJ_DIR$\lib_mcu\battery_voltage_monitoring\battery_voltage_monitoring.c</file>
+      <file>$PROJ_DIR$\lib_board\cc-adc\ccadc.c</file>
+      <file>$PROJ_DIR$\lib_mcu\crc\crc16.c</file>
+      <file>$PROJ_DIR$\lib_mcu\crc\crc8.c</file>
+      <file>$PROJ_DIR$\lib_board\fet_control\fet_control.c</file>
+      <file>$PROJ_DIR$\lib_mcu\gas_gauging\gas_gauging.c</file>
+      <file>$PROJ_DIR$\lib_mcu\authentication\HMAC-SHA2\HMAC-SHA2.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\lib_mcu\ntc_RH163H103F\ntc_rh163h103f.c</file>
+      <file>$PROJ_DIR$\lib_mcu\sm_bus\smbus.c</file>
+      <file>$PROJ_DIR$\lib_board\rc_calibration\rc_calibration.c</file>
+      <file>$PROJ_DIR$\lib_mcu\rtc\rtc.c</file>
+      <file>$PROJ_DIR$\lib_mcu\gas_gauging\gas_gauging.h</file>
+      <file>$PROJ_DIR$\lib_mcu\crc\crc16.h</file>
+      <file>$PROJ_DIR$\lib_board\watchdog\watchdog.h</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\battery_protection.pbi</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Exe\SB202.dbg</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\gas_gauging.pbi</file>
+      <file>$PROJ_DIR$\lib_board\battery_protection\battery_protection.h</file>
+      <file>$PROJ_DIR$\conf\error.h</file>
+      <file>$PROJ_DIR$\conf\stdint.h</file>
+      <file>$PROJ_DIR$\lib_mcu\battery_current_monitoring\battery_current_monitoring.h</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\vreg_mon.r90</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\ntc_rh163h103f.r90</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\battery_current_monitoring.r90</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\aes_lib.pbi</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\HMAC-SHA2.r90</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\battery_pack_parameters.r90</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stddef.h</file>
+      <file>$PROJ_DIR$\lib_mcu\crc\crc8.h</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\ccadc.pbi</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\bandgap.r90</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\gas_gauging.r90</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\watchdog.pbi</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\smbus.r90</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\cc_gas_gauging.r90</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\vadc.pbi</file>
+      <file>$PROJ_DIR$\lib_mcu\sbs_commands\sbs_commands.h</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\ntc_rh163h103f.pbi</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\voltage_based_SoC.pbi</file>
+      <file>$PROJ_DIR$\conf\ATmega32HVB_signature.h</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\watchdog.r90</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\ccadc.r90</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\cc_gas_gauging.pbi</file>
+      <file>$PROJ_DIR$\lib_mcu\voltage_based_SoC\voltage_based_SoC.h</file>
+      <file>$PROJ_DIR$\lib_mcu\battery_pack_parameters\battery_pack_parameters.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
+      <file>$PROJ_DIR$\lib_board\fet_control\fet_control.h</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\battery_protection.r90</file>
+      <file>$PROJ_DIR$\SB202-2 Debug\Obj\battery_voltage_monitoring.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\inavr.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdbool.h</file>
+      <file>$PROJ_DIR$\conf\asm_functions.s90</file>
+      <file>$PROJ_DIR$\lib_mcu\Battery_current_monitoring\battery_current_monitoring.c</file>
+      <file>$PROJ_DIR$\lib_mcu\battery_pack_parameters\battery_pack_parameters.c</file>
+      <file>$PROJ_DIR$\lib_board\bandgap\bandgap.c</file>
+      <file>$PROJ_DIR$\lib_board\battery_protection\battery_protection.c</file>
+      <file>$PROJ_DIR$\lib_mcu\timer\timer.c</file>
+      <file>$PROJ_DIR$\lib_board\v_adc\vadc.c</file>
+      <file>$PROJ_DIR$\lib_mcu\voltage_based_SoC\voltage_based_SoC.c</file>
+      <file>$PROJ_DIR$\lib_board\watchdog\watchdog.c</file>
+      <file>$PROJ_DIR$\lib_board\vreg_mon\vreg_mon.c</file>
+      <file>$PROJ_DIR$\lib_board\v_adc\vadc.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\authentication\authentication.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 71 21 23 39 89 6 69 22 93 3 94 61 80 88 105 60 63 55 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\authentication\aes\aes_lib.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 80 39 89 6 69 22 93 3 62 71 21 94 61 105 60 63 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\gas_gauging\cc_gas_gauging.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 39 89 6 69 22 93 3 62 71 21 94 61 88 80 105 60 63 55 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\battery_voltage_monitoring\battery_voltage_monitoring.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 89 6 69 22 93 3 62 71 21 94 61 9 88 80 105 60 63 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_board\cc-adc\ccadc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 89 6 69 22 93 3 62 71 21 94 61 1 88 80 105 60 63 55 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\crc\crc16.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55 62 71 21 94 83 39 89 6 69 22 93 3 61</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\crc\crc8.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72 39 89 6 69 22 93 3 62 71 21 94 61</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_board\fet_control\fet_control.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 89 6 69 22 93 3 62 71 21 94 61 90</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\gas_gauging\gas_gauging.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\authentication\HMAC-SHA2\HMAC-SHA2.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\ntc_RH163H103F\ntc_rh163h103f.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\sm_bus\smbus.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_board\rc_calibration\rc_calibration.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\rtc\rtc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\conf\asm_functions.s90</name>
+      <outputs>
+        <tool>
+          <name>AAVR</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\Battery_current_monitoring\battery_current_monitoring.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 89 6 69 22 93 3 62 71 21 94 61 88 80 105 60 63 55 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\battery_pack_parameters\battery_pack_parameters.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 89 6 69 22 93 3 62 71 21 94 61 88 80 105 60 63 55 28 54 87 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_board\bandgap\bandgap.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 89 6 69 22 93 3 62 71 21 94 61 83</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_board\battery_protection\battery_protection.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 89 6 69 22 93 3 62 71 21 94 61 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\timer\timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_board\v_adc\vadc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\voltage_based_SoC\voltage_based_SoC.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_board\watchdog\watchdog.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_board\vreg_mon\vreg_mon.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>SB202-2 Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>SB202-3 Debug</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>SB202-3 Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>SB202-4 Debug</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>SB202-4 Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\authentication.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\watchdog.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\crc8.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\smbus.pbi</file>
+      <file>$PROJ_DIR$\lib_mcu\authentication\authentication.c</file>
+      <file>$PROJ_DIR$\lib_board\cc-adc\ccadc.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\iom32hvb.h</file>
+      <file>$PROJ_DIR$\lib_mcu\battery_voltage_monitoring\battery_voltage_monitoring.h</file>
+      <file>$PROJ_DIR$\lib_mcu\authentication\HMAC-SHA2\HMAC-SHA2.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iom32hvb.inc</file>
+      <file>$PROJ_DIR$\lib_mcu\authentication\authentication.h</file>
+      <file>$PROJ_DIR$\lib_board\rc_calibration\rc_calibration.h</file>
+      <file>$PROJ_DIR$\lib_mcu\gas_gauging\cc_gas_gauging.h</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\aes_lib.s90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\main.s90</file>
+      <file>$PROJ_DIR$\lib_board\bandgap\bandgap.h</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\battery_current_monitoring.s90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\battery_voltage_monitoring.r90</file>
+      <file>$PROJ_DIR$\lib_mcu\rtc\rtc.h</file>
+      <file>$PROJ_DIR$\conf\common.h</file>
+      <file>$PROJ_DIR$\lib_mcu\authentication\aes\aes_lib.c</file>
+      <file>$PROJ_DIR$\lib_mcu\gas_gauging\cc_gas_gauging.c</file>
+      <file>$PROJ_DIR$\lib_mcu\battery_voltage_monitoring\battery_voltage_monitoring.c</file>
+      <file>$PROJ_DIR$\lib_board\cc-adc\ccadc.c</file>
+      <file>$PROJ_DIR$\lib_mcu\crc\crc16.c</file>
+      <file>$PROJ_DIR$\lib_mcu\crc\crc8.c</file>
+      <file>$PROJ_DIR$\lib_board\fet_control\fet_control.c</file>
+      <file>$PROJ_DIR$\lib_mcu\gas_gauging\gas_gauging.c</file>
+      <file>$PROJ_DIR$\lib_mcu\authentication\HMAC-SHA2\HMAC-SHA2.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\lib_mcu\ntc_RH163H103F\ntc_rh163h103f.c</file>
+      <file>$PROJ_DIR$\lib_mcu\sm_bus\smbus.c</file>
+      <file>$PROJ_DIR$\lib_board\rc_calibration\rc_calibration.c</file>
+      <file>$PROJ_DIR$\lib_mcu\rtc\rtc.c</file>
+      <file>$PROJ_DIR$\lib_mcu\gas_gauging\gas_gauging.h</file>
+      <file>$PROJ_DIR$\lib_mcu\crc\crc16.h</file>
+      <file>$PROJ_DIR$\lib_board\watchdog\watchdog.h</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\ntc_rh163h103f.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\HMAC-SHA2.pbi</file>
+      <file>$PROJ_DIR$\lib_board\battery_protection\battery_protection.h</file>
+      <file>$PROJ_DIR$\conf\error.h</file>
+      <file>$PROJ_DIR$\conf\stdint.h</file>
+      <file>$PROJ_DIR$\lib_mcu\battery_current_monitoring\battery_current_monitoring.h</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\battery_pack_parameters.s90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\rc_calibration.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\ccadc.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\smbus.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\cc_gas_gauging.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\aes_lib.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\vreg_mon.s90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\rtc.r90</file>
+      <file>$PROJ_DIR$\lib_mcu\ntc_rh163h103f\ntc_rh163h103f.h</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stddef.h</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\cc_gas_gauging.s90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\fet_control.s90</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgm32hvb.xcl</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\crc8.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\main.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\HMAC-SHA2.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\rc_calibration.s90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\bandgap.s90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\asm_functions.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\battery_pack_parameters.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\gas_gauging.s90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\battery_voltage_monitoring.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\battery_protection.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\main.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\rtc.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\crc16.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\watchdog.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\ccadc.pbi</file>
+      <file>$PROJ_DIR$\lib_mcu\sm_bus\smbus.h</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\voltage_based_SoC.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\ntc_rh163h103f.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\cc_gas_gauging.pbi</file>
+      <file>$PROJ_DIR$\lib_mcu\crc\crc8.h</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\battery_protection.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\fet_control.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\SB202-4.map</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\authentication.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\crc16.lst</file>
+      <file>$PROJ_DIR$\lib_mcu\sm_bus\interpreter.h</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\crc8.s90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\vadc.s90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\battery_pack_parameters.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Exe\SB202-4_eeprom.hex</file>
+      <file>$PROJ_DIR$\lib_board\vreg_mon\vreg_mon.h</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\rc_calibration.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\ntc_rh163h103f.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\voltage_based_SoC.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\ccadc.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\rtc.s90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\smbus.s90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\HMAC-SHA2.s90</file>
+      <file>$PROJ_DIR$\lib_mcu\timer\timer.h</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\gas_gauging.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\bandgap.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\rtc.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\rc_calibration.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\ccadc.s90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\authentication.s90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\vreg_mon.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\cc_gas_gauging.lst</file>
+      <file>$PROJ_DIR$\lib_mcu\power_management\pwr_mgmnt.h</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\battery_current_monitoring.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\vreg_mon.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\smbus.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\authentication.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\vreg_mon.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\aes_lib.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\fet_control.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\battery_current_monitoring.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\battery_protection.s90</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg3soim.xcl</file>
+      <file>$PROJ_DIR$\lib_mcu\authentication\HMAC-SHA2\HMAC-SHA2_keyData.h</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\battery_voltage_monitoring.s90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\SB202.pbd</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\watchdog.s90</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl3s-ec_mul-sf.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\battery_current_monitoring.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\timer.s90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\timer.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\aes_lib.r90</file>
+      <file>$PROJ_DIR$\lib_mcu\sbs_commands\sbs_commands.h</file>
+      <file>$PROJ_DIR$\conf\ATmega32HVB_signature.h</file>
+      <file>$PROJ_DIR$\lib_mcu\voltage_based_SoC\voltage_based_SoC.h</file>
+      <file>$PROJ_DIR$\lib_mcu\battery_pack_parameters\battery_pack_parameters.h</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\crc8.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\HMAC-SHA2.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\watchdog.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\gas_gauging.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\vadc.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\ntc_rh163h103f.s90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\voltage_based_SoC.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Exe\SB202-4.hex</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\crc16.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\timer.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\vadc.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\battery_pack_parameters.lst</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\gas_gauging.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\battery_protection.r90</file>
+      <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\vadc.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\fet_control.r90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\crc16.s90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\battery_voltage_monitoring.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\voltage_based_SoC.s90</file>
+      <file>$PROJ_DIR$\SB202-4 Release\Obj\bandgap.pbi</file>
+      <file>$PROJ_DIR$\SB202-4 Release\List\bandgap.lst</file>
+      <file>$PROJ_DIR$\lib_board\fet_control\fet_control.h</file>
+      <file>$TOOLKIT_DIR$\inc\inavr.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdbool.h</file>
+      <file>$PROJ_DIR$\conf\asm_functions.s90</file>
+      <file>$PROJ_DIR$\lib_mcu\Battery_current_monitoring\battery_current_monitoring.c</file>
+      <file>$PROJ_DIR$\lib_mcu\battery_pack_parameters\battery_pack_parameters.c</file>
+      <file>$PROJ_DIR$\lib_board\bandgap\bandgap.c</file>
+      <file>$PROJ_DIR$\lib_board\battery_protection\battery_protection.c</file>
+      <file>$PROJ_DIR$\lib_mcu\timer\timer.c</file>
+      <file>$PROJ_DIR$\lib_board\v_adc\vadc.c</file>
+      <file>$PROJ_DIR$\lib_mcu\voltage_based_SoC\voltage_based_SoC.c</file>
+      <file>$PROJ_DIR$\lib_board\watchdog\watchdog.c</file>
+      <file>$PROJ_DIR$\lib_board\vreg_mon\vreg_mon.c</file>
+      <file>$PROJ_DIR$\lib_board\v_adc\vadc.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\authentication\authentication.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 103 110 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 43 55 10 12 21 145 7 54 11 155 6 156 42 126 129 167 41 44 37 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 55 10 12 21 145 7 54 11 155 6 156 42 126 129 167 41 44 37 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 137 81 88</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\authentication\aes\aes_lib.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 15 50 125</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 129 126 21 145 7 54 11 155 6 43 55 10 156 42 167 41 44 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129 126 21 145 7 54 11 155 6 43 55 10 156 42 167 41 44 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\gas_gauging\cc_gas_gauging.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 56 105 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 14 21 145 7 54 11 155 6 43 55 10 156 42 129 126 167 41 44 37 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 21 145 7 54 11 155 6 43 55 10 156 42 129 126 167 41 44 37 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\battery_voltage_monitoring\battery_voltage_monitoring.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 118 67 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 8 129 126 167 41 44 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 8 129 126 167 41 44 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_board\cc-adc\ccadc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 102 47 93</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 5 129 126 167 41 44 37 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 5 129 126 167 41 44 37 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\crc\crc16.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 149 83 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 37 43 55 10 156 127 21 145 7 54 11 155 6 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 43 55 10 156 127 21 145 7 54 11 155 6 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\crc\crc8.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 85 130 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 78 21 145 7 54 11 155 6 43 55 10 156 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78 21 145 7 54 11 155 6 43 55 10 156 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_board\fet_control\fet_control.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 57 113 147</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 154</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 154</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\gas_gauging\gas_gauging.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 66 98 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 129 126 167 41 44 37 14 36 128</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 129 126 167 41 44 37 14 36 128</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\authentication\HMAC-SHA2\HMAC-SHA2.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 96 131 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 129 126 21 145 7 54 11 155 6 43 55 10 156 42 167 41 44 37 9 117</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129 126 21 145 7 54 11 155 6 43 55 10 156 42 167 41 44 37 9 117</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 16 69 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 127 17 167 129 126 41 44 37 5 74 12 8 154 38 13 106 53 20 14 36 128 89 97</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 127 17 167 129 126 41 44 37 5 74 12 8 154 38 13 106 53 20 14 36 128 89 97</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\ntc_RH163H103F\ntc_rh163h103f.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 135 76 91</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 53</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\sm_bus\smbus.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 95 48 109</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 74 126 84 97 129 167 41 44 37 36 14 128</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 74 126 84 97 129 167 41 44 37 36 14 128</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_board\rc_calibration\rc_calibration.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 62 90 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 13 127</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 13 127</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\rtc\rtc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 94 100 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 20 21 145 7 54 11 155 6 43 55 10 156 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 21 145 7 54 11 155 6 43 55 10 156 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\SB202-4 Release\Obj\SB202.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 40 112 0 152 122 65 68 150 77 73 139 2 80 143 138 39 101 70 3 148 146 136 111 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\SB202-4 Release\Exe\SB202-4.hex</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 81 88</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 58 116 61 125 64 82 99 107 87 144 19 49 93 71 59 147 133 60 91 46 52 109 124 134 75 108 132 121</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\conf\asm_functions.s90</name>
+      <outputs>
+        <tool>
+          <name>AAVR</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AAVR</name>
+          <file> 145 7 54 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\Battery_current_monitoring\battery_current_monitoring.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 18 114 107</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 129 126 167 41 44 37 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 129 126 167 41 44 37 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\battery_pack_parameters\battery_pack_parameters.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 45 142 87</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 129 126 167 41 44 37 14 36 128 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 129 126 167 41 44 37 14 36 128 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_board\bandgap\bandgap.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 63 153 99</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 127</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 127</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_board\battery_protection\battery_protection.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 115 79 144</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 41</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 41</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\timer\timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 123 140 124</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 74 126 97</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 74 126 97</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_board\v_adc\vadc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 86 141 134</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 127 167 129 126 41 44 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 127 167 129 126 41 44 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_mcu\voltage_based_SoC\voltage_based_SoC.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 151 92 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 167 129 126 41 44 37 5 128 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 145 7 54 11 155 6 43 55 10 156 42 167 129 126 41 44 37 5 128 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_board\watchdog\watchdog.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 120 72 132</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 155 6 21 145 7 54 11 43 55 10 156 42 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155 6 21 145 7 54 11 43 55 10 156 42 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lib_board\vreg_mon\vreg_mon.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 51 104 108</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 89 21 145 7 54 11 155 6 43 55 10 156 42 38 106</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89 21 145 7 54 11 155 6 43 55 10 156 42 38 106</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

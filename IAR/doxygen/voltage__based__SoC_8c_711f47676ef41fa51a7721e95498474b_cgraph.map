@@ -1,0 +1,3 @@
+<area shape="rect" href="$voltage__based__SoC_8c.html#568cb223b73b8d4d234670ebb0baefb6" title="Current conversion." alt="" coords="215,31,369,57">
+<area shape="rect" href="$battery__current__monitoring_8c.html#6a557e4dca31a58b1683861bf8f154e6" title="Provides the offset calibrated current from the last CC&#45;ADC reading." alt="" coords="419,5,661,32">
+<area shape="rect" href="$battery__current__monitoring_8c.html#d971791f4fc1c6f54e1d7d46fea20786" title="Convert CCADC ticks to mA." alt="" coords="468,56,612,83">

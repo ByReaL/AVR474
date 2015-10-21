@@ -1,0 +1,12 @@
+<area shape="rect" href="$battery__current__monitoring_8c.html#6a557e4dca31a58b1683861bf8f154e6" title="Provides the offset calibrated current from the last CC&#45;ADC reading." alt="" coords="221,5,464,32">
+<area shape="rect" href="$battery__current__monitoring_8c.html#5514ee0b54dac907d6cbb5572146f612" title="Is the current below the limit that defines standby operation (time to enter low..." alt="" coords="261,56,424,83">
+<area shape="rect" href="$battery__current__monitoring_8c.html#7509bf2a6930a4ba1a5a1927582c40bb" title="Is the current charging or discharging the battery." alt="" coords="241,107,444,133">
+<area shape="rect" href="$battery__current__monitoring_8c.html#90ab35d451c37cb0d641b5f037598441" title="Convert mA to CCADC tick." alt="" coords="271,157,415,184">
+<area shape="rect" href="$battery__current__monitoring_8c.html#cfd447102c06d4b657539fe1cd9f3f59" title="Calculates and stores the average current during the last minut (18&#45;bit signed)." alt="" coords="235,208,451,235">
+<area shape="rect" href="$cc__gas__gauging_8c.html#4a1ad76628aa8d3905b820ee0822dcf0" title="Convert accumulated to mAh." alt="" coords="272,259,413,285">
+<area shape="rect" href="$cc__gas__gauging_8c.html#6bd8ffcf294bdac1f08ce9b4406e834e" title="Read out raw values accumulated." alt="" coords="739,335,947,361">
+<area shape="rect" href="$gas__gauging_8c.html#cfbc7e47153ec1e54e6fc85ddde14d26" title="Returns state of charge." alt="" coords="267,360,419,387">
+<area shape="rect" href="$vadc_8c.html#dc8b0995e310a115bb72c23830abdf49" title="Calculation of cell voltage." alt="" coords="265,411,420,437">
+<area shape="rect" href="$voltage__based__SoC_8c.html#96735c5df96b87b60cfd1222e1420adb" title="Reset the relaxation timer." alt="" coords="275,461,411,488">
+<area shape="rect" href="$gas__gauging_8c.html#86386fa7dbd384f1d29de0dc72d8820c" title="Returns the remaining capacity at specified current." alt="" coords="512,360,691,387">
+<area shape="rect" href="$rtc_8c.html#7fd4050fbdd5b78bdc45336b7f9c1724" title="Return number of minutes since start." alt="" coords="541,461,661,488">

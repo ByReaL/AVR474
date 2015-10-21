@@ -1,0 +1,4 @@
+<area shape="rect" href="$battery__pack__parameters_8c.html" title="Definition file for a smart battery pack." alt="" coords="5,80,384,107">
+<area shape="rect" href="$rtc_8c.html" title="Simple RTC." alt="" coords="408,80,523,107">
+<area shape="rect" href="$voltage__based__SoC_8c.html" title="Functions for estimating State of Charge based on voltage." alt="" coords="547,80,859,107">
+<area shape="rect" href="$main_8c.html" title="Application for Smart Battery with ATmega32HVB (two, thre or four cell Li&#45;Ion) SBS..." alt="" coords="883,80,941,107">

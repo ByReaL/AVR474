@@ -1,0 +1,11 @@
+<area shape="rect" href="$battery__protection_8c.html#3584a066791a0ce5c3ac7357c9d5a3b9" title="Clear charge protection counter." alt="" coords="172,5,441,32">
+<area shape="rect" href="$battery__protection_8c.html#6fc50879f599043fda7207475aace781" title="Get charge protection counter." alt="" coords="176,56,437,83">
+<area shape="rect" href="$battery__protection_8c.html#988aff3a3cceb987229ece4fce86308a" title="Checks if Battery Protection has been triggered." alt="" coords="199,107,415,133">
+<area shape="rect" href="$rtc_8c.html#001aef73d9b426aa872b4e8555e772a3" title="Add one second to the time." alt="" coords="247,157,367,184">
+<area shape="rect" href="$main_8c.html#e9fe9128363c0ecf3db954a1e07825e9" title="Run this function every minute." alt="" coords="252,208,361,235">
+<area shape="rect" href="$battery__current__monitoring_8c.html#0959c4b3bb0cee63ad2a3bdb89a92a6d" title="Provide an estimate for the average current throughout the last minute (18&#45;bit signed)..." alt="" coords="492,107,687,133">
+<area shape="rect" href="$cc__gas__gauging_8c.html#4a1ad76628aa8d3905b820ee0822dcf0" title="Convert accumulated to mAh." alt="" coords="755,208,896,235">
+<area shape="rect" href="$cc__gas__gauging_8c.html#6bd8ffcf294bdac1f08ce9b4406e834e" title="Read out raw values accumulated." alt="" coords="963,233,1171,260">
+<area shape="rect" href="$gas__gauging_8c.html#86386fa7dbd384f1d29de0dc72d8820c" title="Returns the remaining capacity at specified current." alt="" coords="736,309,915,336">
+<area shape="rect" href="$gas__gauging_8c.html#17d5adf37f8f1ab7851727ec3335f501" title="Estimate time to empty." alt="" coords="516,259,663,285">
+<area shape="rect" href="$battery__current__monitoring_8c.html#90ab35d451c37cb0d641b5f037598441" title="Convert mA to CCADC tick." alt="" coords="753,259,897,285">

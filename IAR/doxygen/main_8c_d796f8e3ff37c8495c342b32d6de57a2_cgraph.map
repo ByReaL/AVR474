@@ -1,0 +1,8 @@
+<area shape="rect" href="$main_8c.html#a3f0a393a933d87a3e8713c4985a8ac8" title="Return true if there is any temperature error." alt="" coords="271,5,412,32">
+<area shape="rect" href="$battery__current__monitoring_8c.html#7509bf2a6930a4ba1a5a1927582c40bb" title="Is the current charging or discharging the battery." alt="" coords="240,56,443,83">
+<area shape="rect" href="$main_8c.html#a069db615d5edf9ae12c47823449c91d" title="Check if a battery temperature is within the limits." alt="" coords="256,107,427,133">
+<area shape="rect" href="$main_8c.html#38e11c8b50a00ef91f4be286319d904e" title="Enter power&#45;off if allowed." alt="" coords="292,157,391,184">
+<area shape="rect" href="$vadc_8c.html#ae4c822ab63bf82a578b0489e1b52129" title="Calculation of chip temperature." alt="" coords="239,208,444,235">
+<area shape="rect" href="$fet__control_8c.html#0258102f1334bb8a65f364e43b2e41fe" title="Disable the charge FET." alt="" coords="503,56,689,83">
+<area shape="rect" href="$fet__control_8c.html#047090a368a0a95c3c47a9c8f7602b8b" title="Disable the discharge FET." alt="" coords="495,107,697,133">
+<area shape="rect" href="$fet__control_8c.html#16b63cca34a388992fee275392cb4c71" title="Disable both the charge and the discharge FETs." alt="" coords="520,157,672,184">

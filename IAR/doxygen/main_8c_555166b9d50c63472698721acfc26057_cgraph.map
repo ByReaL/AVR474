@@ -1,0 +1,14 @@
+<area shape="rect" href="$battery__current__monitoring_8c.html#7509bf2a6930a4ba1a5a1927582c40bb" title="Is the current charging or discharging the battery." alt="" coords="216,5,419,32">
+<area shape="rect" href="$battery__voltage__monitoring_8c.html#5e2404a51e229d6ebbef3947c678a3c5" title="Investigate if any of the battery cells are too high." alt="" coords="207,107,428,133">
+<area shape="rect" href="$vadc_8c.html#dc8b0995e310a115bb72c23830abdf49" title="Calculation of cell voltage." alt="" coords="479,120,633,147">
+<area shape="rect" href="$battery__voltage__monitoring_8c.html#3896cc743e5299ec912ec41485edaaa0" title="Investigate if the battery cells are too low." alt="" coords="208,157,427,184">
+<area shape="rect" href="$cc__gas__gauging_8c.html#524ffb0c818f674a80049a992a29928b" title="Update State of Charge." alt="" coords="224,259,411,285">
+<area shape="rect" href="$main_8c.html#38e11c8b50a00ef91f4be286319d904e" title="Enter power&#45;off if allowed." alt="" coords="268,309,367,336">
+<area shape="rect" href="$fet__control_8c.html#0258102f1334bb8a65f364e43b2e41fe" title="Disable the charge FET." alt="" coords="224,360,411,387">
+<area shape="rect" href="$fet__control_8c.html#047090a368a0a95c3c47a9c8f7602b8b" title="Disable the discharge FET." alt="" coords="216,411,419,437">
+<area shape="rect" href="$vadc_8c.html#a36cbd40622b622424c4d6af8fb2bef3" title="Check VADC scan status." alt="" coords="255,461,380,488">
+<area shape="rect" href="$voltage__based__SoC_8c.html#3cfbb7f6888a90eb03eeb14e7f4b00aa" title="Returns the the latest open circuit state of charge." alt="" coords="260,512,375,539">
+<area shape="rect" href="$voltage__based__SoC_8c.html#9708e584eda79bcf685b716b25e66765" title="Updates the SoC." alt="" coords="261,208,373,235">
+<area shape="rect" href="$fet__control_8c.html#16b63cca34a388992fee275392cb4c71" title="Disable both the charge and the discharge FETs." alt="" coords="480,309,632,336">
+<area shape="rect" href="$voltage__based__SoC_8c.html#a575b7d78b65c89953c9b265ab4a181e" title="SoC conversion." alt="" coords="483,196,629,223">
+<area shape="rect" href="$rtc_8c.html#7fd4050fbdd5b78bdc45336b7f9c1724" title="Return number of minutes since start." alt="" coords="496,247,616,273">

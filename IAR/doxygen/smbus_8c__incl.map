@@ -1,0 +1,15 @@
+<area shape="rect" href="$common_8h.html" title="Common headerfile." alt="" coords="401,304,484,331">
+<area shape="rect" href="$smbus_8h.html" title="Headerfile for smbus.c." alt="" coords="165,80,237,107">
+<area shape="rect" href="$sm__bus_2interpreter_8h.html" title="SMBus Protocol command interpreter." alt="" coords="383,80,473,107">
+<area shape="rect" href="$timer_8h.html" title="Headerfile for timer.c." alt="" coords="497,80,559,107">
+<area shape="rect" href="$battery__pack__parameters_8h.html" title="Definition file for a smart battery pack." alt="" coords="264,155,443,181">
+<area shape="rect" href="$gas__gauging_8h.html" title="Gas gauging module for calculating time to empty, time to full etc." alt="" coords="583,80,687,107">
+<area shape="rect" href="$stdint_8h.html" title="stdint.h" alt="" coords="284,379,348,405">
+<area shape="rect" href="$error_8h.html" title="error.h" alt="" coords="537,379,596,405">
+<area shape="rect" href="$sbs__commands_8h.html" title="Headerfile for sbs_commands.c." alt="" coords="471,229,593,256">
+<area shape="rect" href="$vadc_8h.html" title="Headerfile for vadc_usage.c." alt="" coords="17,229,76,256">
+<area shape="rect" href="$battery__protection_8h.html" title="Header file for Battery Protection peripheral module driver." alt="" coords="100,229,236,256">
+<area shape="rect" href="$battery__current__monitoring_8h.html" title="Header file for CC&#45;ADC result processing firmware module." alt="" coords="260,229,447,256">
+<area shape="rect" href="$crc16_8h.html" title="Header file for CRC16 functions." alt="" coords="191,304,255,331">
+<area shape="rect" href="$cc__gas__gauging_8h.html" title="Gas gauging header file." alt="" coords="623,155,748,181">
+<area shape="rect" href="$voltage__based__SoC_8h.html" title="Contains defines, typedefinitions and functions prototypes for voltage_based_SoC..." alt="" coords="772,155,919,181">
