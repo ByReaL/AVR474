@@ -140,7 +140,7 @@ void SetLEDs(unsigned char LEDflags)
  * enable the timers to show status codes on the LEDs.
  */
 #pragma vector = PCINT0_vect
-ISR(PCINT0_ISR)
+ISR(PCINT0_vect)
 {
 	if(ButtonIsPushed()){
 		PORTB |= 0x1F;
@@ -159,7 +159,7 @@ ISR(PCINT0_ISR)
  * both compare interrupts.
  */
 #pragma vector = TIMER1_COMPA_vect
-ISR(T1CMPA_ISR)
+ISR(TIMER1_COMPA_vect)
 {
 	//PINB |= 0x1F;
 
@@ -177,7 +177,7 @@ ISR(T1CMPA_ISR)
  * error code is shown instead of the SoC.
  */
 #pragma vector = TIMER1_COMPB_vect
-ISR(T1_COMPB_ISR)
+ISR(TIMER1_COMPB_vect)
 {
 	if(ButtonIsPushed() && (LedTimeout <= LED_STATUS_TIMEOUT)){
 		LedTimeout++;
@@ -274,7 +274,7 @@ ptr2funcV_V GenericExpire[8] =
 // of generic timers is decremented.  Whenever one reaches zero, its expiration function
 // is called.  As the prescaler for T1 is initialized to 8, this fires every 2.048mS.
 #pragma vector = TIMER1_OVF_vect
-ISR(T1OVF_ISR)
+ISR(TIMER1_OVF_vect)
 {
   unsigned int temp;
   unsigned char i;

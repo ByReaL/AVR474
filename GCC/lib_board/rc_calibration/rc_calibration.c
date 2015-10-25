@@ -53,6 +53,7 @@
 #include "rc_calibration.h"
 #include "ATmega32HVB_signature.h"
 #include <avr/interrupt.h>
+#include "iar_compat.h"
 
 /******************************************************************************
  Prototypes for private functions
@@ -330,7 +331,8 @@ void RCCAL_StartOSIsampleClockPeriod(uint8_t clock_source)
  *	sure the number of Fast RC cycles used for calibration are less than 2^16.
  *
  */
-ISR(TIMER0_CAPT_vect)
+#pragma vector = TIMER0_IC_vect
+ISR(TIMER0_IC_vect)
 {
 	static uint8_t i = 0;
 	static uint16_t initial_capture, final_capture;

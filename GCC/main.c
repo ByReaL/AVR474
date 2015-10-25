@@ -71,6 +71,9 @@
 #include "timer.h"
 #include <avr/io.h>
 #include <avr/wdt.h>
+#include "iar_compat.h"
+
+
 uint8_t EEMEM wdr_count = 0; 
 uint8_t EEMEM AUTH_aes_key[16] = {'Y','o','u',' ','c','a','n','n','o','t',' ','p','a','s','s','!'};
 int16_t EEMEM accOffset = 32767;
