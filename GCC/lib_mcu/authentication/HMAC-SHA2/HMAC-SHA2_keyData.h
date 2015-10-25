@@ -54,7 +54,7 @@
 // In hex:   	546869732069732061206c6f6e67206b657920666f7220484d41432d53484132
 
 //! Data table containing the resulting hash from performing the inital SHA-2 operation on the secret key XOR 0x36
-__flash uint32_t ful_inSHA[] = {
+const __flash uint32_t ful_inSHA[] = {
 	0xb243ea78,
 	0xad850388,
 	0x86e93248,
@@ -65,7 +65,7 @@ __flash uint32_t ful_inSHA[] = {
 	0x3695f1a5};
 
 //! Data table containing the resulting hash from performing the inital SHA-2 operation on the secret key XOR 0x5c
-__flash uint32_t ful_outSHA[] = {
+const __flash uint32_t ful_outSHA[] = {
 	0x8a78e085,
 	0xf4b1b9a1,
 	0xff1da060,

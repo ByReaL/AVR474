@@ -57,7 +57,7 @@
 //! Enum for sleep modes.
 typedef enum  {
 	SLEEP_MODE_DISABLE    = ((0<<SM2) | (0<<SM1) | (0<<SM0) | (0<<SE)),	//!< Sleep mode disable.
-	SLEEP_MODE_IDLE       = ((0<<SM2) | (0<<SM1) | (0<<SM0) | (1<<SE)),	//!< Sleep mode idle.
+	SLEEP_MODE_IDLE1      = ((0<<SM2) | (0<<SM1) | (0<<SM0) | (1<<SE)),	//!< Sleep mode idle.
 	SLEEP_MODE_ADC_NR     = ((0<<SM2) | (0<<SM1) | (1<<SM0) | (1<<SE)),	//!< Sleep mode adc noise reduction.
 	SLEEP_MODE_POWER_SAVE = ((0<<SM2) | (1<<SM1) | (1<<SM0) | (1<<SE)),	//!< Sleep mode power save.
 	SLEEP_MODE_POWER_OFF  = ((1<<SM2) | (0<<SM1) | (0<<SM0) | (1<<SE))	//!< Sleep mode power off.
@@ -69,11 +69,11 @@ typedef enum  {
 	SMCR = SLEEP_MODE_DISABLE; }
 
 //! Set idle sleep mode
-#define SLEEP_SET_IDLE_MODE() { SMCR = SLEEP_MODE_IDLE; }
+#define SLEEP_SET_IDLE_MODE() { SMCR = SLEEP_MODE_IDLE1; }
 
 //! Enter idle sleep mode
 #define SLEEP_ENTER_IDLE()  {\
-	SMCR = SLEEP_MODE_IDLE; \
+	SMCR = SLEEP_MODE_IDLE1; \
 	__sleep(); }
 
 //! Set ADC noise reduction mode

@@ -119,8 +119,8 @@ void Comm_Init(void)
 
 //This wakes up a battery from sleep mode into the "On" state, per sbdat110, 4.4.2
 
-#pragma vector = TWI_BUS_C_D_vect
-__interrupt void TWICD_ISR(void)
+#pragma vector = TWIBUSCD_vect
+ISR(TWICD_ISR)
 {
 	//clear bits per sbdat110, 4.4.2
 	//SMBvariables[SMBV_BattMode][hibyte] &= ~(0xE3);	
@@ -337,7 +337,7 @@ uint8_t TWISR_state = TW_IDLE;	//state variable
 
 
 #pragma vector = TWI_vect
-__interrupt void TWI_ISR(void)
+ISR(TWI_ISR)
 {
 	//Command-related feature flags
 	static uint8_t TWISR_CmdFeatures = 0;

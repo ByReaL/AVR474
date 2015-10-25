@@ -116,7 +116,7 @@ See application note documentation for details.
 #define TIMSK1            TIMSK1
 
 #else
-#error "Device not supported by the SMBus driver! This is either because the selected device does not have a TWI module, or support for the device has not been added to 'device_specific.h' yet. Please consult application note AVR316 for information on how to add new devices."
+//#error "Device not supported by the SMBus driver! This is either because the selected device does not have a TWI module, or support for the device has not been added to 'device_specific.h' yet. Please consult application note AVR316 for information on how to add new devices."
 #endif
 
 

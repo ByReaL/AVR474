@@ -1,5 +1,6 @@
 #include "iar_compat.h"
 #include <avr/interrupt.h>
+#include <avr/sleep.h>
 
 uint8_t __save_interrupt(void)
 {
@@ -19,4 +20,9 @@ void __disable_interrupt(void)
 void __restore_interrupt(uint8_t sreg_state)
 {
 	SREG = sreg_state;
+}
+
+void __sleep(void)
+{
+	sleep_cpu();
 }

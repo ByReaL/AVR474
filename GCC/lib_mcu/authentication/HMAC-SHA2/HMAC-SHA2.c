@@ -62,7 +62,7 @@ uint32_t LEFTROTATE(uint32_t x, uint8_t n);
 /* File global variables. */
 
 //! Data table containing the 64 K values for the SHA-2 implementation
-__flash uint32_t K[64] = {  0x428a2f98L, 0x71374491L, 0xb5c0fbcfL, 0xe9b5dba5L,
+const __flash uint32_t K[64] = {  0x428a2f98L, 0x71374491L, 0xb5c0fbcfL, 0xe9b5dba5L,
                             0x3956c25bL, 0x59f111f1L, 0x923f82a4L, 0xab1c5ed5L,
                             0xd807aa98L, 0x12835b01L, 0x243185beL, 0x550c7dc3L,
                             0x72be5d74L, 0x80deb1feL, 0x9bdc06a7L, 0xc19bf174L,
@@ -105,7 +105,7 @@ __flash uint32_t K[64] = {  0x428a2f98L, 0x71374491L, 0xb5c0fbcfL, 0xe9b5dba5L,
  * \param  ul_initial  Data array containing the initial values of hash, 8 32-bit works
  */
 
-void SHA_2(uint32_t *ul_message, uint32_t *ul_working, uint32_t __flash *ul_initial)
+void SHA_2(uint32_t *ul_message, uint32_t *ul_working, const uint32_t __flash *ul_initial)
 {
 	uint8_t uc_temp, s;   //!< Variables used as temporary datastorage/counter
  	static uint32_t t1 , t2;    //!< Temporary variables, static to avoid using the stack

@@ -51,6 +51,6 @@
 #include "stdint.h"
 
 void HMAC_SHA2(uint32_t *ul_message, uint32_t *ul_working);
-void SHA_2(uint32_t *ul_message, uint32_t *ul_working, uint32_t __flash *ul_initial);
+void SHA_2(uint32_t *ul_message, uint32_t *ul_working, const uint32_t __flash *ul_initial);
 
 #endif

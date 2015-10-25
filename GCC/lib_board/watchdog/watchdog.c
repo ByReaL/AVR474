@@ -60,7 +60,7 @@
 /*! \brief Watchdog Interrupt Handler - does nothing except waking up the device.
  */
 #pragma vector = WDT_vect
-__interrupt void WDT_Timeout_ISR( void )
+ISR(WDT_Timeout_ISR)
 {
 }
 
