@@ -59,7 +59,7 @@
 /******************************************************************************/
 /*! \brief Watchdog Interrupt Handler - does nothing except waking up the device.
  */
-#pragma vector = WDT_vect
+//#pragma vector = WDT_vect
 ISR(WDT_vect)
 {
 }
@@ -76,7 +76,7 @@ ISR(WDT_vect)
  */
 void WDT_Disable(void)
 {
-	wdt_reset();
+	__asm__ __volatile__ ("wdr");
 	MCUSR &= ~(1<<WDRF);
 	WDTCSR |= (1<<WDCE) | (1<<WDE);
 	WDTCSR = 0x00;
@@ -90,7 +90,7 @@ void WDT_Disable(void)
  *
  * \note Do not optimize because then IAR messes it up...
  */
-#pragma optimize=0
+//#pragma optimize=0
 void WDT_SetTimeOut( WDT_timeout_t timeout )
 {    
 	uint8_t temp;

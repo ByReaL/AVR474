@@ -139,7 +139,7 @@ void SetLEDs(unsigned char LEDflags)
  * This interrupt will trigger if there is a pin change on the button. This will
  * enable the timers to show status codes on the LEDs.
  */
-#pragma vector = PCINT0_vect
+//#pragma vector = PCINT0_vect
 ISR(PCINT0_vect)
 {
 	if(ButtonIsPushed()){
@@ -158,7 +158,7 @@ ISR(PCINT0_vect)
  * This interrupt will re-enable the pin change interrupt for the button and disable
  * both compare interrupts.
  */
-#pragma vector = TIMER1_COMPA_vect
+//#pragma vector = TIMER1_COMPA_vect
 ISR(TIMER1_COMPA_vect)
 {
 	//PINB |= 0x1F;
@@ -176,7 +176,7 @@ ISR(TIMER1_COMPA_vect)
  * If the button is pushed for a time longer than LED_STATUS_TIMEOUT, the
  * error code is shown instead of the SoC.
  */
-#pragma vector = TIMER1_COMPB_vect
+//#pragma vector = TIMER1_COMPB_vect
 ISR(TIMER1_COMPB_vect)
 {
 	if(ButtonIsPushed() && (LedTimeout <= LED_STATUS_TIMEOUT)){
@@ -273,7 +273,7 @@ ptr2funcV_V GenericExpire[8] =
 //This interrupt functions as the main timer tick for the code.  Each time, a list
 // of generic timers is decremented.  Whenever one reaches zero, its expiration function
 // is called.  As the prescaler for T1 is initialized to 8, this fires every 2.048mS.
-#pragma vector = TIMER1_OVF_vect
+//#pragma vector = TIMER1_OVF_vect
 ISR(TIMER1_OVF_vect)
 {
   unsigned int temp;

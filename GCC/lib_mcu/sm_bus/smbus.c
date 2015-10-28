@@ -119,7 +119,7 @@ void Comm_Init(void)
 
 //This wakes up a battery from sleep mode into the "On" state, per sbdat110, 4.4.2
 
-#pragma vector = TWIBUSCD_vect
+//#pragma vector = TWIBUSCD_vect
 ISR(TWIBUSCD_vect)
 {
 	//clear bits per sbdat110, 4.4.2
@@ -336,7 +336,7 @@ enum /*TWISR_State*/ {TW_IDLE=0, TW_Wait4Stop, TW_Wait4Cmd, TW_Wait4RW, TW_Wait4
 uint8_t TWISR_state = TW_IDLE;	//state variable
 
 
-#pragma vector = TWI_vect
+//#pragma vector = TWI_vect
 ISR(TWI_vect)
 {
 	//Command-related feature flags

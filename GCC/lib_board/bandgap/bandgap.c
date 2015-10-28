@@ -52,6 +52,7 @@
 /* Includes. */
 #include "common.h"
 #include "ATmega32HVB_signature.h"
+#include <avr/io.h>
 #include <util/delay.h>
 
 

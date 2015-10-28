@@ -54,7 +54,7 @@
 #include "ATmega32HVB_signature.h"
 
 #include "vadc.h"
-
+#include "iar_compat.h"
 
 /* File global variables. */
 

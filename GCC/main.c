@@ -69,9 +69,9 @@
 #include "vreg_mon.h"
 #include "voltage_based_SoC.h"
 #include "timer.h"
+#include "iar_compat.h"
 #include <avr/io.h>
 #include <avr/wdt.h>
-#include "iar_compat.h"
 
 
 uint8_t EEMEM wdr_count = 0; 
@@ -210,8 +210,8 @@ struct {
 ******************************************************************************/
 err_t Reset_Initialization();
 
-void runEverySecond();
-void runEveryMinute();
+static inline void runEverySecond() __attribute__((always_inline));
+static inline void runEveryMinute() __attribute__((always_inline));
 
 static void handleNewCoreTemperature();
 static void handleNewCellTemperature();
@@ -227,7 +227,7 @@ static void enterPoweroff();
 
 static void handleSBSCommand();
 
-
+void __sleep(void);
 /******************************************************************************/
 /*! \brief The main function.
  *
@@ -651,8 +651,8 @@ err_t Reset_Initialization()
  * - Check if overcharge has occured multiple times
  *
  */
-#pragma inline=forced
-void runEverySecond() {	
+//#pragma inline=forced
+static inline void runEverySecond() {	
 	// Update the RTC
 	// Returns true if a new minute has occured, if it has, run that function
 	if( RTC_AddSecond() ) {
@@ -689,8 +689,7 @@ void runEverySecond() {
  * Update terminateDischarge and fullyDischarge if needed
  *
  */
-#pragma inline=forced
-void runEveryMinute() {
+static inline void runEveryMinute() {
 	// Update remaining capacity and time alarm
 	// If they are set to 0, the alarms are disabled
 	if(   battParams.remainingCapacityAlarm != 0

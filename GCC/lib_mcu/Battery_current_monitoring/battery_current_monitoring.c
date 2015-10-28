@@ -233,7 +233,7 @@ void BATTCUR_CalculateShuntCoeffient(uint16_t shuntResistance,uint8_t VrefSel)
         // 10^6:compensation for using the shunt with "microOhm"
         // 2^17:the CCADC measurement result range
         // 2^16:up-scaling to increase accuracy
-	uint32_t dividend;
+	uint32_t dividend = 0;
 
         // VrefSel==0, select 220mV as CCADC internal voltage reference
         // VrefSel==1, Select 110mV as CCADC internal voltage reference

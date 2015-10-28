@@ -267,8 +267,8 @@ int32_t CCADC_GetIccResult( void )
  * not be called from elsewhere, and is therefore static/local file scope only.
  *
  */
-#pragma inline = forced
-static void CCADC_PolarityManager( void )
+static inline void CCADC_PolarityManager( void ) __attribute__((always_inline));
+static inline void CCADC_PolarityManager( void ) 
 {
 	static uint8_t polarityCounter = CONVERSION_COUNT;
 	
@@ -519,11 +519,11 @@ ISR(CCADC_ACC_vect)
 	
 	if( CCADC_IS_POLARITY_NEGATIVE() )
 	{
-		CCADC_accResult = - ( CADAC0 + (CADAC1 << 8) + (CADAC2 << 16) + (CADAC3 << 24) );
+		CCADC_accResult = - ( CADAC0 + ((int32_t)CADAC1 << 8) + ((int32_t)CADAC2 << 16) + ((int32_t)CADAC3 << 24) );
 	}
 	else
 	{
-		CCADC_accResult = ( CADAC0 + (CADAC1 << 8) + (CADAC2 << 16) + (CADAC3 << 24) );
+		CCADC_accResult = ( CADAC0 + ((int32_t)CADAC1 << 8) + ((int32_t)CADAC2 << 16) + ((int32_t)CADAC3 << 24) );
 	}
 	
 #ifdef COMPENSATE_FOR_ERROR_AFTER_POLARITY_SWITCH

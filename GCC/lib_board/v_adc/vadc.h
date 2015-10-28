@@ -93,8 +93,8 @@ typedef enum vadcIndex { CELL1 = 1, CELL2 = 2, CELL3 = 3, CELL4 = 4, VTEMP=5, VA
 #define DEF_CELL3 3
 #define DEF_CELL4 4
 #define DEF_VTEMP 5
-#define DEF_VADCZ0 6
-#define DEF_VADCZ1 7
+#define DEF_VADC0 6
+#define DEF_VADC1 7
 
 // Deep undervoltage levels for HVB.
 #define VB_DUVR_DFET         500    //!< Voltage across DFET diode

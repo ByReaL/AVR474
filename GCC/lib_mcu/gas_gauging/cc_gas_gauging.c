@@ -193,7 +193,7 @@ void CCGASG_SetStateofCharge(uint16_t stateofCharge)
  * \param  shuntResistance  Shunt resistance in microohms
  * \param  VrefSel          Selects the voltage reference to use
  */
-#pragma optimize=3
+//#pragma optimize=3
 void CCGASG_CalculateShuntCoefficients(uint16_t ccadc_clkPeriod,uint16_t shuntResistance, uint8_t VrefSel)
 {
         // Period = CCADC_CLK_Period * 2^10
@@ -221,7 +221,7 @@ void CCGASG_CalculateShuntCoefficients(uint16_t ccadc_clkPeriod,uint16_t shuntRe
 
 
         uint64_t divisor = (uint64_t)Period * 36;
-        uint64_t dividend;
+        uint64_t dividend = 0;
 
         if(VrefSel==CCADC_VOLTREF_220mV){
 	        // VrefSel==CCADC_VOLTREF_220mV, select 220mV as CCADC internal voltage reference

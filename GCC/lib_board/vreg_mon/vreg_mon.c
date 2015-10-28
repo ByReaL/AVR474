@@ -71,6 +71,7 @@
 #include "vreg_mon.h"
 #include "watchdog.h"
 #include "pwr_mgmnt.h"
+#include "iar_compat.h"
 #include <avr/interrupt.h>
 #include <avr/wdt.h>
 /******************************************************************************

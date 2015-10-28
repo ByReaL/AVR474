@@ -1,3 +1,4 @@
+#include <avr/io.h>
 #include "iar_compat.h"
 #include <avr/interrupt.h>
 #include <avr/sleep.h>

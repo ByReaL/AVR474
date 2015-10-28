@@ -76,6 +76,8 @@ const uint16_t remainingCapacityCalibrationCurrents[] PROGMEM = {0, 163, 325, 65
 // TODO: Different temperatures and it should be updated at runtime
 const  uint8_t  remainingCapacityCalibration[] PROGMEM = {0,  4,  8,  12,  25};
 
+uint16_t crc_ccitt_update( uint16_t crc, uint8_t data );
+
 /******************************************************************************
  Functions declarations
 ******************************************************************************/
@@ -90,7 +92,7 @@ const  uint8_t  remainingCapacityCalibration[] PROGMEM = {0,  4,  8,  12,  25};
 void BATTPARAM_GetString( BATTPARAM_blockParameter_t * source, SBS_command_t* destination )
 {
 	for(uint8_t i = 0; i < SBSDATA_BLOCK_LENGTH; ++i) {
-		destination->payload[i] = *((uint8_t EEMEM*)source + i);
+		destination->payload[i] = *((uint8_t*)source + i);
 	}
 }
 

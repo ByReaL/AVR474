@@ -47,7 +47,7 @@
  ******************************************************************************/
 #include "crc16.h"
 #include "ATmega32HVB_signature.h"
-
+#include "iar_compat.h"
 /****************************
  * CRC-16 calculation
  *

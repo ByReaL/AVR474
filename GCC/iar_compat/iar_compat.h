@@ -1,7 +1,7 @@
 
 #include <stdint.h>
-
-#if defined(__GNUC__) // GNU Compiler interrupt names
+#ifndef __IAR_COMPAT_H__
+#define __IAR_COMPAT_H__
 
 uint8_t __save_interrupt(void);
 void __disable_interrupt(void);

@@ -383,7 +383,7 @@ extern int16_t EEMEM accOffset;
 /*!
  * Struct containing all parameters for the battery
  */
-struct EEMEM battParam_struct{
+struct battParam_struct{
 	BATTPARAM_blockParameter_t manufacturerName[SBSDATA_BLOCK_LENGTH];
 	BATTPARAM_blockParameter_t deviceName[SBSDATA_BLOCK_LENGTH];
 	BATTPARAM_blockParameter_t deviceChemistry[SBSDATA_BLOCK_LENGTH];
