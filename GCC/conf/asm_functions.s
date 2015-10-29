@@ -58,20 +58,16 @@
 ; Returns:
 ;     R16 - Read byte.
 ; ---
-MODULE __READ_SIGNATUREBYTE
-PUBLIC READ_SIGNATUREBYTE
-RSEG CODE
 #include <avr/io.h>
-
+	.global READ_SIGNATUREBYTE
 READ_SIGNATUREBYTE:
 	LDI	r17, 0
-	MOVW	ZH:ZL, r17:r16                       ; Move the address to the Z pointer
+	MOV	ZH, r17                       ; Move the address to the Z pointer
+	MOV ZL, r16
 	LDI	r17, ((1 << SIGRD) | (1 << SPMEN))   ; Bits for SPMCR register
-	OUT	SPMCSR, r17                          ; Set bits in SPMCR register
+	OUT	_SFR_IO_ADDR(SPMCSR), r17                          ; Set bits in SPMCR register
 	LPM	r16, Z                               ; Load byte from address pointed to by Z.
 	RET
-	
-ENDMOD
 
 ; ---
 ; This routine reads a word from signature row
@@ -83,25 +79,20 @@ ENDMOD
 ; Returns:
 ;     R17:R16 - Read word.
 ; ---
-MODULE __READ_SIGNATUREWORD
-PUBLIC READ_SIGNATUREWORD
-RSEG CODE
-#include <avr/io.h>
-
+	.global READ_SIGNATUREWORD
 READ_SIGNATUREWORD:
 	LDI	r17, 0
-	MOVW	ZH:ZL, r17:r16                       ; Move the address to the Z pointer
+	MOV	ZH,r17                       ; Move the address to the Z pointer
+	mov zl, r16
 	LDI	r17, ((1 << SIGRD) | (1 << SPMEN))   ; Bits for SPMCR register
-	OUT	SPMCSR, r17                          ; Set bits in SPMCR register
+	OUT	_SFR_IO_ADDR(SPMCSR), r17                          ; Set bits in SPMCR register
 	LPM	r16, Z+                              ; Load byte from address pointed to by Z., Wait 3 cycles
 	RJMP	wait_1                               ; Wait 2 extra cycles
 wait_1:
 	LDI	r17, ((1 << SIGRD) | (1 << SPMEN))   ; Bits for SPMCR register
-	OUT	SPMCSR, r17                          ; Set bits in SPMCR register
+	OUT	_SFR_IO_ADDR(SPMCSR), r17                          ; Set bits in SPMCR register
 	LPM	r17, Z                               ; Load byte from address pointed to by Z.
 	RET
-	
-ENDMOD
 
 
 ; ---
@@ -117,11 +108,7 @@ ENDMOD
 ; Returns:
 ;     R17:R16 - The new checksum
 ; ---
-MODULE __CRC_16_Atmel
-PUBLIC CRC_16_Atmel
-RSEG CODE
-#include <avr/io.h>
-
+	.global CRC_16_Atmel
 ;uint16_t CRC_16_Atmel(uint16_t crc, uint16_t data)
 ;{
 ;	for (uint8_t i = 0; i < 16; ++i){
@@ -151,8 +138,6 @@ CRC_16_Atmel_1:
 	BRNE    CRC_16_Atmel_0  ;If counter is not 0, continue for-loop
 	RET
 
-ENDMOD
-
 
 ; ---
 ; SMBusb PEC calculation
@@ -170,11 +155,7 @@ ENDMOD
 ; Returns:
 ;     R16 - The new checksum
 ; ---
-MODULE __SMBus_PEC
-PUBLIC SMBus_PEC
-RSEG CODE
-#include <avr/io.h>
-
+	.global SMBus_PEC
 ;uint8_t SMB_PEC(uint8_t lastCRC, uint8_t newByte)
 ;{
 ;	lastCRC ^= newByte;
@@ -201,9 +182,6 @@ SMBus_PEC_1:
 	BRNE    SMBus_PEC_0   ;If counter is not 0, continue for-loop
 	RET
 
-ENDMOD
-
-
 ; ---
 ; HMAC Leftrotate function
 ;
@@ -217,25 +195,19 @@ ENDMOD
 ; Returns:
 ;     R19:R18:R17:R16 - 32-Bit rotated value
 ; ---
-MODULE __LEFTROTATE
-PUBLIC LEFTROTATE
-RSEG CODE
-#include <avr/io.h>
-
+	.global LEFTROTATE
 LEFTROTATE:
-??LEFTROTATE_0:
+LEFTROTATE_0:
 	LSL     R16
 	ROL     R17
 	ROL     R18
 	ROL     R19
-	BRCC	??LEFTROTATE_1
+	BRCC	LEFTROTATE_1
 	ORI	R16,0x01
-??LEFTROTATE_1:
+LEFTROTATE_1:
 	DEC     R20
-	BRNE    ??LEFTROTATE_0
+	BRNE    LEFTROTATE_0
 	RET
-
-ENDMOD
 
 ; ---
 ; HMAC Rightrotate function
@@ -250,26 +222,19 @@ ENDMOD
 ; Returns:
 ;     R19:R18:R17:R16 - 32-Bit rotated value
 ; ---
-MODULE __RIGHTROTATE
-PUBLIC RIGHTROTATE
-RSEG CODE
-#include <avr/io.h>
-
+	.global RIGHTROTATE
 RIGHTROTATE:
-??RIGHTROTATE_0:
+RIGHTROTATE_0:
 	LSR     R19
 	ROR     R18
 	ROR     R17
 	ROR     R16
-	BRCC	??RIGHTROTATE_1
+	BRCC	RIGHTROTATE_1
 	ORI	R19,0x80
-??RIGHTROTATE_1:
+RIGHTROTATE_1:
 	DEC     R20
-	BRNE    ??RIGHTROTATE_0
+	BRNE    RIGHTROTATE_0
 	RET
-
-
-ENDMOD
 
 
 ; ---
@@ -285,11 +250,7 @@ ENDMOD
 ; Returns:
 ;     R17:R16 - Updated crc16
 ; ---
-MODULE crc16ccitt
-PUBLIC crc_ccitt_update
-RSEG CODE
-#include <avr/io.h>
-
+	.global crc_ccitt_update
 crc_ccitt_update:
 	EOR	R18, R16
 	MOV	R19, R18
@@ -309,7 +270,5 @@ crc_ccitt_update:
 	EOR     R16, R22
 	EOR     R17, R18
 	RET
-ENDMOD
 
-END
 ; END OF FILE
